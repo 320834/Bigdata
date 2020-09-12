@@ -14,13 +14,13 @@ public class MaxTemperatureMapper extends Mapper<LongWritable, Text, Text, IntWr
         String line = value.toString();    
         String year = line.substring(15, 19);
         int airTemperature;
-        if (line.charAt(87) == '+') { // parseInt doesn't like leading plus signs
+        if (line.charAt(37) == '+') { // parseInt doesn't like leading plus signs
     
-            airTemperature = Integer.parseInt(line.substring(88, 92));    
+            airTemperature = Integer.parseInt(line.substring(38, 42));    
         } 
         else 
         {
-            airTemperature = Integer.parseInt(line.substring(87, 92));    
+            airTemperature = Integer.parseInt(line.substring(37, 42));    
         }    
         
         String quality = line.substring(92, 93);
