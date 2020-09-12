@@ -1,8 +1,8 @@
 import java.io.IOException;
 import org.apache.hadoop.io.IntWritable;
-importorg.apache.hadoop.io.LongWritable;
-importorg.apache.hadoop.io.Text;
-importorg.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
 public class MaxTemperatureMapperextends Mapper<LongWritable, Text, Text, IntWritable> 
 {
     private static final int MISSING = 9999;
