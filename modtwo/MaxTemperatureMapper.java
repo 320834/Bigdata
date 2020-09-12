@@ -31,3 +31,5 @@ public class MaxTemperatureMapper extends Mapper<LongWritable, Text, Text, IntWr
         }
     }
 } 
+
+//hadoop jar maxTemp.jar MaxTemperature bigdata/modtwo/temperatureInputs.txt bigdata/modtwo/output3
