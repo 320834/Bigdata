@@ -4,7 +4,7 @@ hdfs dfs -put data.txt bigdata/modthree
 
 javac -classpath `yarn classpath` -d . WordCountMapper.java
 javac -classpath `yarn classpath` -d . WordCountReducer.java
-javac -classpath `yarn classpath`:. -d . MaxTemperature.java
+javac -classpath `yarn classpath`:. -d . WordCount.java
 
 jar -cvf wordCount.jar *.class
 
