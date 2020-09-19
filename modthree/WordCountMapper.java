@@ -18,17 +18,17 @@ public class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritabl
 
         if(line.contains("dec"))
         {
-            context.write(new Text("dec"), new IntWritable(1))
+            context.write(new Text("dec"), new IntWritable(1));
         }
 
         if(line.contains("java"))
         {
-            context.write(new Text("java"), new IntWritable(1))
+            context.write(new Text("java"), new IntWritable(1));
         }
 
         if(line.contains("chicago"))
         {
-            context.write(new Text("chicago"), new IntWritable(1))
+            context.write(new Text("chicago"), new IntWritable(1));
         }
     }
 }
