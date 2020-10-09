@@ -1,3 +1,5 @@
+hdfs dfs -rm -r bigdata/modfour
+
 hdfs dfs -mkdir bigdata/modfour
 
 hdfs dfs -put AB_NYC_2019.csv bigdata/modfour

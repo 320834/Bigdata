@@ -33,3 +33,5 @@ javac -classpath `yarn classpath`:. -d . MaxTemperature.java
 jar -cvf maxTemp.jar *.class
 
 hadoop jar maxTemp.jar MaxTemperature bigdata/modtwo/temperatureInputs.txt bigdata/modtwo/output3
+
+Delete: hdfs dfs -rm -r bigdata/"folder"
