@@ -12,7 +12,7 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
         String line = value.toString().toLowerCase();
 
         //4 neighborhood, 5 neighourhood
-        String[] lineArr = line.split(",");
+        String[] lineArr = line.split("\t");
 
         String nGroup = lineArr[4];
         String neigh = lineArr[5];
