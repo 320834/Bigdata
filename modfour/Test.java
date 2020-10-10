@@ -24,8 +24,13 @@ public class Test {
                     {
                         if(Test.neighborhood(lineArr[4]))
                         {
+                            
+                        }
+                        else
+                        {
                             System.out.println("Error " + lineArr[4]);
                         }
+
                     }
                     catch(Exception e)
                     {
@@ -43,15 +48,15 @@ public class Test {
     public static boolean neighborhood(String n)
     {
         if(
-            n != "Brooklyn" ||
-            n != "Manhattan" || 
-            n != "Staten Island" ||
-            n != "Queens" ||
-            n != "Bronx")
+            n != "\"Brooklyn\"" ||
+            n != "\"Manhattan\"" || 
+            n != "\"Staten Island\"" ||
+            n != "\"Queens\"" ||
+            n != "\"Bronx\"")
         {
-            return false;
+            return true;
         }
 
-        return true;
+        return false;
     }
 }
