@@ -14,13 +14,9 @@ public class Test {
 
                     String line = scanner.nextLine();
 
-                    //System.out.println(line);
-
                     String[] lineArr = line.split("\",\"");
-
-                    // System.out.println(lineArr[4]);
  
-                    if(lineArr.length >= 5 && Test.neighborhood(lineArr[4].trim()))
+                    if(lineArr.length >= 5 && Test.neighborhood(lineArr[4]))
                     {
                         //System.out.println(lineArr[4]);
                         System.out.println(lineArr[4] + " " + lineArr[5]);
@@ -30,10 +26,6 @@ public class Test {
                         //System.out.println(lineArr[4]);
                         //System.out.println("Error " + lineArr[4]);
                     }
-
-
-                
-
 			}
 			scanner.close();
 		} catch (FileNotFoundException e) {

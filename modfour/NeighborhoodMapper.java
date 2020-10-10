@@ -18,16 +18,13 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
 
         if(lineArr.length >= 5)
         {
-            if(NeighborhoodMapper.neighborhood(lineArr[4].trim()))
+            if(NeighborhoodMapper.neighborhood(lineArr[4]))
             {
-                String nGroup = lineArr[4].trim();
-                String neigh = lineArr[5].trim();
+                String nGroup = lineArr[4];
+                String neigh = lineArr[5];
                 context.write(new Text(nGroup + " " + neigh), new IntWritable(1));
             }
         }
-           
-
-
     }
 
     public static boolean neighborhood(String n)
@@ -37,7 +34,8 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
             n.compareTo("Manhattan") == 0 || 
             n.compareTo("Staten Island") == 0 ||
             n.compareTo("Queens") == 0 ||
-            n.compareTo("Bronx") == 0)
+            n.compareTo("Bronx") == 0
+        )
         {
             return true;
         }
