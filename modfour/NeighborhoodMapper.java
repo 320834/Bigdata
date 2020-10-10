@@ -12,11 +12,39 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
         String line = value.toString().toLowerCase();
 
         //4 neighborhood, 5 neighourhood
-        String[] lineArr = line.split("\t");
+        String[] lineArr = line.split("\",\"");
 
-        String nGroup = lineArr[4];
-        String neigh = lineArr[5];
+        //System.out.println(lineArr[4]);
 
-        context.write(new Text(nGroup + " " + neigh), new IntWritable(1));
+        try
+        {
+            String nGroup = lineArr[4];
+            String neigh = lineArr[5];
+            if(NeighborhoodMapper.neighborhood(lineArr[4]))
+            {
+                
+                context.write(new Text(nGroup + " " + neigh), new IntWritable(1));                
+            }
+        }
+        catch(Exception e)
+        {
+            //System.out.println(line);
+        }
+
+    }
+
+    public static boolean neighborhood(String n)
+    {
+        if(
+            n != "Brooklyn" ||
+            n != "Manhattan" || 
+            n != "Staten Island" ||
+            n != "Queens" ||
+            n != "Bronx")
+        {
+            return false;
+        }
+
+        return true;
     }
 }
