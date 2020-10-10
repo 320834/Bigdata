@@ -19,26 +19,19 @@ public class Test {
                     String[] lineArr = line.split("\",\"");
 
                     // System.out.println(lineArr[4]);
-
-                    try
+ 
+                    if(lineArr.length >= 5 && Test.neighborhood(lineArr[4].trim()))
                     {
-                        
-                        if(Test.neighborhood(lineArr[4].trim()))
-                        {
-                            //System.out.println(lineArr[4]);
-                            System.out.println(lineArr[4]);
-                        }
-                        else
-                        {
-                            //System.out.println(lineArr[4]);
-                            //System.out.println("Error " + lineArr[4]);
-                        }
-
+                        //System.out.println(lineArr[4]);
+                        System.out.println(lineArr[4] + " " + lineArr[5]);
                     }
-                    catch(Exception e)
+                    else
                     {
-                        // System.out.println(line);
+                        //System.out.println(lineArr[4]);
+                        //System.out.println("Error " + lineArr[4]);
                     }
+
+
                 
 
 			}

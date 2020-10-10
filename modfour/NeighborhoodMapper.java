@@ -18,10 +18,10 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
 
         if(lineArr.length >= 5)
         {
-            String nGroup = lineArr[4];
-            String neigh = lineArr[5];
             if(NeighborhoodMapper.neighborhood(lineArr[4].trim()))
             {
+                String nGroup = lineArr[4].trim();
+                String neigh = lineArr[5].trim();
                 context.write(new Text(nGroup + " " + neigh), new IntWritable(1));
             }
         }
