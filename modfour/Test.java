@@ -18,23 +18,26 @@ public class Test {
 
                     String[] lineArr = line.split("\",\"");
 
-                    //System.out.println(lineArr[4]);
+                    // System.out.println(lineArr[4]);
 
                     try
                     {
-                        if(Test.neighborhood(lineArr[4]))
+                        
+                        if(Test.neighborhood(lineArr[4].trim()))
                         {
-                            
+                            //System.out.println(lineArr[4]);
+                            System.out.println(lineArr[4]);
                         }
                         else
                         {
-                            System.out.println("Error " + lineArr[4]);
+                            //System.out.println(lineArr[4]);
+                            //System.out.println("Error " + lineArr[4]);
                         }
 
                     }
                     catch(Exception e)
                     {
-                        System.out.println(line);
+                        // System.out.println(line);
                     }
                 
 
@@ -48,11 +51,11 @@ public class Test {
     public static boolean neighborhood(String n)
     {
         if(
-            n != "\"Brooklyn\"" ||
-            n != "\"Manhattan\"" || 
-            n != "\"Staten Island\"" ||
-            n != "\"Queens\"" ||
-            n != "\"Bronx\"")
+            n.compareTo("Brooklyn") == 0 ||
+            n.compareTo("Manhattan") == 0 || 
+            n.compareTo("Staten Island") == 0 ||
+            n.compareTo("Queens") == 0 ||
+            n.compareTo("Bronx") == 0)
         {
             return true;
         }

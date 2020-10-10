@@ -35,11 +35,11 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
     public static boolean neighborhood(String n)
     {
         if(
-            n != "\"Brooklyn\"" ||
-            n != "\"Manhattan\"" || 
-            n != "\"Staten Island\"" ||
-            n != "\"Queens\"" ||
-            n != "\"Bronx\"")
+            n.compareTo("Brooklyn") == 0 ||
+            n.compareTo("Manhattan") == 0 || 
+            n.compareTo("Staten Island") == 0 ||
+            n.compareTo("Queens") == 0 ||
+            n.compareTo("Bronx") == 0)
         {
             return true;
         }
