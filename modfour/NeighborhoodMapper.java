@@ -9,13 +9,12 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
     @Override
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException 
     {
-        String line = value.toString().toLowerCase();
+        String line = value.toString();
 
         //4 neighborhood, 5 neighourhood
         String[] lineArr = line.split("\",\"");
 
         
-        System.out.println(lineArr);
         if(lineArr.length >= 5)
         {
             String n = lineArr[4];
