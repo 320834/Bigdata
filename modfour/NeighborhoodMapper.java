@@ -15,7 +15,7 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
         String[] lineArr = line.split("\",\"");
 
         
-
+        System.out.println(lineArr);
         if(lineArr.length >= 5)
         {
             String n = lineArr[4];
