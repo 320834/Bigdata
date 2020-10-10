@@ -14,11 +14,12 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
         //4 neighborhood, 5 neighourhood
         String[] lineArr = line.split("\",\"");
 
-        //System.out.println(lineArr[4]);
+        
 
         if(lineArr.length >= 5)
         {
             String n = lineArr[4];
+            System.out.println(lineArr[4] + " " + lineArr[5]);
             if(
                 n.compareTo("Brooklyn") == 0 ||
                 n.compareTo("Manhattan") == 0 || 
