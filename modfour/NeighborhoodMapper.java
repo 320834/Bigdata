@@ -16,7 +16,7 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
 
         //System.out.println(lineArr[4]);
 
-        try
+        if(lineArr.length >= 5)
         {
             String nGroup = lineArr[4];
             String neigh = lineArr[5];
@@ -25,10 +25,8 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
                 context.write(new Text(nGroup + " " + neigh), new IntWritable(1));
             }
         }
-        catch(Exception e)
-        {
-            //System.out.println(line);
-        }
+           
+
 
     }
 
