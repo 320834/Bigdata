@@ -22,8 +22,7 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
             String neigh = lineArr[5];
             if(NeighborhoodMapper.neighborhood(lineArr[4]))
             {
-                
-                context.write(new Text(nGroup + " " + neigh), new IntWritable(1));                
+                context.write(new Text(nGroup + " " + neigh), new IntWritable(1));
             }
         }
         catch(Exception e)
@@ -36,15 +35,15 @@ public class NeighborhoodMapper extends Mapper<LongWritable, Text, Text, IntWrit
     public static boolean neighborhood(String n)
     {
         if(
-            n != "Brooklyn" ||
-            n != "Manhattan" || 
-            n != "Staten Island" ||
-            n != "Queens" ||
-            n != "Bronx")
+            n == "Brooklyn" ||
+            n == "Manhattan" || 
+            n == "Staten Island" ||
+            n == "Queens" ||
+            n == "Bronx")
         {
-            return false;
+            return true;
         }
 
-        return true;
+        return false;
     }
 }
