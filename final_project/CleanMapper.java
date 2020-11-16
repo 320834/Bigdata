@@ -32,7 +32,7 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
             String monitorId = lineArr[2];
             String stateCode = lineArr[11];
             String countyCode = lineArr[12];
-            String hasAquifer = lineArr[25].length() > 0 ? true : false;
+            boolean hasAquifer = lineArr[25].length() > 0 ? true : false;
             String latitude = lineArr[26];
             String longitude = lineArr[27];
 
