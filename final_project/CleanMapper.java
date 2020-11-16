@@ -11,9 +11,8 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
     {    
         String line = value.toString();
 
-        String[] lineArr = line.split(",");
+        String[] lineArr = line.split(";");
 
-        System.out.println(line);
         //First line columns
         if(lineArr[2].compareTo("MonitoringLocationIdentifier") == 0 && lineArr[27].compareTo("LongitudeMeasure") == 0)
         {
