@@ -30,11 +30,11 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
         if(lineArr.length >= 27)
         {
             String monitorId = lineArr[2];
-            int stateCode = Integer.parseInt(lineArr[11]);
-            int countyCode = Integer.parseInt(lineArr[12]);
-            boolean hasAquifer = lineArr[25].length() > 0 ? true : false;
-            double latitude = Double.parseDouble(lineArr[26]);
-            double longitude = Double.parseDouble(lineArr[27]);
+            String stateCode = lineArr[11];
+            String countyCode = lineArr[12];
+            String hasAquifer = lineArr[25].length() > 0 ? true : false;
+            String latitude = lineArr[26];
+            String longitude = lineArr[27];
 
             context.write(new Text(monitorId + "," + stateCode + "," + countyCode + ","
             + hasAquifer + "," + latitude + "," + longitude), new IntWritable(1));
