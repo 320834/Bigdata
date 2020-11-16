@@ -34,7 +34,7 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
             int countyCode = Integer.parseInt(lineArr[12]);
             boolean hasAquifer = lineArr[25].length > 0 ? true : false;
             double latitude = Double.parseDouble(lineArr[26]);
-            double longitude = Double.parseDouble(lineArr[27])
+            double longitude = Double.parseDouble(lineArr[27]);
 
             context.write(new Text(monitorId + "," + stateCode + "," + countyCode + ","
             + hasAquifer + "," + latitude + "," + longitude), new IntWritable(1));

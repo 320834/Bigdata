@@ -2,7 +2,7 @@ Here are steps I've used to compile and run on Dumbo. Use the Forum if you encou
 
 // Replace 'yourNetID' below with your own NYU Net ID.
 
-ssh -Y yourNetID@dumbo.es.its.nyu.edu
+ssh -Y jc8017@dumbo.es.its.nyu.edu
 // Write your driver source code using a text editor like vi (or emacs or other text editor):
 
 vi MaxTemperature.java
@@ -31,6 +31,11 @@ javac -classpath `yarn classpath`:. -d . MaxTemperature.java
 // Create your jar file
 
 jar -cvf maxTemp.jar *.class
+
+HDFS Input Data
+1. hdfs dfs -ls
+2. hdfs dfs -mkdir file
+3. hdfs dfs -put fileName /user/jc8017/folder
 
 hadoop jar maxTemp.jar MaxTemperature bigdata/modtwo/temperatureInputs.txt bigdata/modtwo/output3
 
