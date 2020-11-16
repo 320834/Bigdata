@@ -14,6 +14,6 @@ extends Reducer<Text, IntWritable, Text, IntWritable>
             
         }
         
-        context.write(key, "");
+        context.write(key, new Text(""));
     }
 }
