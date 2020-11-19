@@ -11,33 +11,33 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
     {    
         String line = value.toString();
 
-        String[] lineArr = line.split(";");
+        String[] lineArr = line.split('";"');
 
         //First line columns
-        if(lineArr[2].compareTo("MonitoringLocationIdentifier") == 0 && lineArr[27].compareTo("LongitudeMeasure") == 0)
+        if(lineArr[0].compareTo("Water System Name") == 0 && lineArr[10].compareTo("State") == 0)
         {
-            String monitorId = lineArr[2];
-            String stateCode = lineArr[11];
-            String countyCode = lineArr[12];
-            String hasAquifer = lineArr[25];
-            String latitude = lineArr[26];
-            String longitude = lineArr[27];
+            String name = lineArr[0];
+            String population =  lineArr[4];
+            String source = lineArr[5];
+            String city = lineArr[8];
+            String county = lineArr[9];
+            String state = lineArr[10];
 
-            context.write(new Text(monitorId + "," + stateCode + "," + countyCode + ","
-            + hasAquifer + "," + latitude + "," + longitude), new IntWritable(1));
+            context.write(new Text(name + "," + population + "," + source + ","
+            + city + "," + county + "," + state), new IntWritable(1));
         }
 
-        if(lineArr.length >= 27)
+        if(lineArr.length >= 11)
         {
-            String monitorId = lineArr[2];
-            String stateCode = lineArr[11];
-            String countyCode = lineArr[12];
-            boolean hasAquifer = lineArr[25].length() > 0 ? true : false;
-            String latitude = lineArr[26];
-            String longitude = lineArr[27];
+            String name = lineArr[0];
+            String population =  lineArr[4];
+            String source = lineArr[5];
+            String city = lineArr[8];
+            String county = lineArr[9];
+            String state = lineArr[10];
 
-            context.write(new Text(monitorId + "," + stateCode + "," + countyCode + ","
-            + hasAquifer + "," + latitude + "," + longitude), new IntWritable(1));
+            context.write(new Text(name + "," + population + "," + source + ","
+            + city + "," + county + "," + state), new IntWritable(1));
         }
 
 
