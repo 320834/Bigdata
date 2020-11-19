@@ -35,7 +35,7 @@ jar -cvf maxTemp.jar *.class
 HDFS Input Data
 1. hdfs dfs -ls
 2. hdfs dfs -mkdir file
-3. hdfs dfs -put fileName /user/jc8017/folder
+3. hdfs dfs -put fileName /user/jc8017/bigdata/final_project
 
 hadoop jar maxTemp.jar MaxTemperature bigdata/modtwo/temperatureInputs.txt bigdata/modtwo/output3
 

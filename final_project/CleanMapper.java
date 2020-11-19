@@ -11,7 +11,7 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
     {    
         String line = value.toString();
 
-        String[] lineArr = line.split('";"');
+        String[] lineArr = line.split("\";\"");
 
         //First line columns
         if(lineArr[0].compareTo("Water System Name") == 0 && lineArr[10].compareTo("State") == 0)
