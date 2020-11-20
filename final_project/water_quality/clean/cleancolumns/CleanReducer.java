@@ -4,7 +4,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 public class CleanReducer
-extends Reducer<Text, IntWritable, Text, IntWritable> 
+extends Reducer<Text, IntWritable, Text, Text> 
 {
     @Override
     public void reduce(Text key, Iterable<IntWritable> values, Context context)
@@ -14,6 +14,6 @@ extends Reducer<Text, IntWritable, Text, IntWritable>
             
         }
         
-        context.write(key, new IntWritable(0));
+        context.write(key, new Text(""));
     }
 }

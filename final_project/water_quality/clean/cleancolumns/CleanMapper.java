@@ -43,10 +43,3 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
 
     }
 } 
-
-// 2
-// 11
-// 12
-// 25
-// 26
-// 27
