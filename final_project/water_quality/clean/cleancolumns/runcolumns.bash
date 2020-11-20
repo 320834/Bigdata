@@ -1,7 +1,6 @@
 hdfs dfs -put ../raw_data/inputdata.csv bigdata/final_project/inputdata.csv
 
 hdfs dfs -rm -r bigdata/final_project/output
-hdfs dfs -mkdir bigdata/final_project/output
 
 javac -classpath `yarn classpath` -d . CleanMapper.java
 javac -classpath `yarn classpath` -d . CleanReducer.java
