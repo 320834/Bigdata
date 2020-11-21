@@ -22,7 +22,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
         //5 - State
 
         //Toss out if it doesn't have a state and county 
-        if(lineArr[4].length > 0 && lineArr[5].length > 0)
+        if(lineArr[4].length() > 0 && lineArr[5].length() > 0)
         {
             int population = getPop(lineArr[1]);
             int citiesServed = getCitiesServed(lineArr[3]);
@@ -62,7 +62,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
 
     public int getCitiesServed(String city)
     {
-        return city.length > 0 ? 1 : 0;
+        return city.length() > 0 ? 1 : 0;
     }
 
     public double sysPerCapita(int population, int systems)

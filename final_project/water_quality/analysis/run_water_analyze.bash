@@ -1,7 +1,7 @@
 hdfs dfs -rm -r bigdata/final_project/output_analysis
 
 #Compiling 
-javac -classpath `yarn classpath` -d . AnalyzeWaterWritable.java
+javac -classpath `yarn classpath` -d . AnalyzeWritable.java
 javac -classpath `yarn classpath` -d . AnalyzeWaterMapper.java
 javac -classpath `yarn classpath` -d . AnalyzeWaterReducer.java
 javac -classpath `yarn classpath`:. -d . AnalyzeWater.java
