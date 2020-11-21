@@ -22,12 +22,12 @@ public class AnalyzeWritable implements WritableComparable<AnalyzeWritable> {
         this.systemsPerPop = systemsPerPop;
     }
 
-    public IntWrtiable getPop()
+    public IntWritable getPop()
     {
         return this.population;
     }
 
-    public IntWrtiable getCitiesServed()
+    public IntWritable getCitiesServed()
     {
         return this.citiesServed;
     }
