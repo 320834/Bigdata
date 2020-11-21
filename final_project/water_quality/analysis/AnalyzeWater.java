@@ -25,7 +25,7 @@ public class AnalyzeWater {
         job.setReducerClass(AnalyzeWaterReducer.class);
 
         job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(Text.class);
+        job.setOutputValueClass(AnalyzeWritable.class);
 
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
