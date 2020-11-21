@@ -43,7 +43,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             //Use state, county as key
             Text keyMap = new Text(lineArr[5] + "," + lineArr[4]);
 
-            context(keyMap, valueMap);
+            context.write(keyMap, valueMap);
 
         }
     }
