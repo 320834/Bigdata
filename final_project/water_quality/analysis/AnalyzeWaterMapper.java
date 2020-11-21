@@ -30,7 +30,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             double sysPerCapita = sysPerCapita(population, waterSystems);
 
             //See AnalyzeWritable class
-            AnalyzeWritable value = new AnalyzeWritable(
+            AnalyzeWritable valueMap = new AnalyzeWritable(
                 new IntWritable(population), 
                 new IntWritable(citiesServed),
                 new IntWritable(waterSystems),
@@ -38,16 +38,16 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
                 );
 
             //Use state, county as key
-            Text key = new Text(lineArr[5] + "," + lineArr[4]);
+            Text keyMap = new Text(lineArr[5] + "," + lineArr[4]);
 
-            context(key, value);
+            context(keyMap, valueMap);
 
         }
     }
 
     public int getPop(String pop)
     {
-        if(pop.length > 0)
+        if(pop.length() > 0)
         {
             try{
                 return Integer.parseInt(pop);
