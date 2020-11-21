@@ -23,7 +23,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
         //5 - State
 
         //Toss out if it doesn't have a state and county 
-        if(lineArr[4].length() > 0 && lineArr[5].length() > 0)
+        if(lineArr.length == 6 && lineArr[4].length() > 0 && lineArr[5].length() > 0)
         {
             int population = getPop(lineArr[1]);
             int citiesServed = getCitiesServed(lineArr[3]);
@@ -39,7 +39,9 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
                 );
 
             //Use state, county as key
-            Text keyMap = new Text(lineArr[5] + "," + lineArr[4]);
+            String state = lineArr[5].replace("\"", "");
+            String county = lineArr[4];
+            Text keyMap = new Text(state + "," + county);
 
             context.write(keyMap, valueMap);
 
