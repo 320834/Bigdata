@@ -18,6 +18,14 @@ public class AnalyzeWritable implements Comparable<AnalyzeWritable>, Writable, W
     private IntWritable waterSystems;
     private DoubleWritable systemsPerPop;
 
+    public AnalyzeWritable()
+    {
+        this.population = new IntWritable(0);
+        this.citiesServed = new IntWritable(0);
+        this.waterSystems = new IntWritable(0);
+        this.systemsPerPop = new DoubleWritable(0.0);
+    }
+
     /**
         Constructor
      */
