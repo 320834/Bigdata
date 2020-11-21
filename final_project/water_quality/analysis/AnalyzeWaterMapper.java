@@ -61,6 +61,8 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             }
             
         }
+
+        return 0;
     }
 
     public int getCitiesServed(String city)
