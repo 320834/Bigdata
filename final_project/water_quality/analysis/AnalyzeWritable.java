@@ -7,6 +7,8 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.Writable;
 
+import java.io.DataInput;
+import java.io.DataOutput;
 import java.util.Objects;
 
 public class AnalyzeWritable implements WritableComparable<AnalyzeWritable> { 
