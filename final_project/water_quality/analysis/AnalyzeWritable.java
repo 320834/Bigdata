@@ -10,8 +10,9 @@ import org.apache.hadoop.io.Writable;
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.util.Objects;
+import java.lang.Comparable;
 
-public class AnalyzeWritable implements WritableComparable<AnalyzeWritable> { 
+public class AnalyzeWritable implements Comparable<AnalyzeWritable>, Writable, WritableComparable<AnalyzeWritable> { 
     private IntWritable population;
     private IntWritable citiesServed;
     private IntWritable waterSystems;
