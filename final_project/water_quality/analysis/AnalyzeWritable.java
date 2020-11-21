@@ -4,6 +4,10 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.WritableComparable;
+import org.apache.hadoop.io.Writable;
+
+import java.util.Objects;
 
 public class AnalyzeWritable implements WritableComparable<AnalyzeWritable> { 
     private IntWritable population;
@@ -79,7 +83,7 @@ public class AnalyzeWritable implements WritableComparable<AnalyzeWritable> {
         return Objects.equals(this.population, other.getPop()) 
             && Objects.equals(this.citiesServed, other.getCitiesServed())
             && Objects.equals(this.waterSystems, other.getWaterSystems())
-            && Objects.equals(this.systemsPerPop, other.getsystemsPerPop());
+            && Objects.equals(this.systemsPerPop, other.getSystemsPerPop());
     }
 
     @Override
