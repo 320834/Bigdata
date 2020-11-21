@@ -13,7 +13,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
     {    
         String line = value.toString();
 
-        String[] lineArr = line.split("\";\"");
+        String[] lineArr = line.split(",");
 
         //0 - Name
         //1 - Population Served
