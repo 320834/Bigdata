@@ -1,4 +1,4 @@
-hdfs dfs -put ../raw_data/inputdata.csv bigdata/final_project/inputdata.csv
+hdfs dfs -put ./raw_data/inputdata.csv bigdata/final_project/inputdata.csv
 
 hdfs dfs -rm -r bigdata/final_project/output
 
