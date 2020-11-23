@@ -47,7 +47,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             //For Virginia counties where cities are individual counties
             if(lineArr[3].length() > 0 && lineArr[4].length() == 0)
             {
-                count = lineArr[3];
+                county = lineArr[3];
             }
 
             Text keyMap = new Text(state + "," + county);
