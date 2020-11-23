@@ -28,7 +28,9 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             int population = getPop(lineArr[1]);
             int citiesServed = getCitiesServed(lineArr[3]);
             int waterSystems = 1;
-            double sysPerCapita = sysPerCapita(population, waterSystems);
+            double sysPerCapita = 0.0;
+            
+            // sysPerCapita(population, waterSystems);
 
             //See AnalyzeWritable class
             AnalyzeWritable valueMap = new AnalyzeWritable(

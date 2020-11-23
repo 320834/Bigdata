@@ -57,6 +57,11 @@ public class AnalyzeWritable implements Comparable<AnalyzeWritable>, Writable, W
         return this.systemsPerPop;
     }
 
+    public void setGetSystemsPerPop(DoubleWritable in)
+    {
+        this.systemsPerPop = in;
+    }
+
     public void readFields(DataInput in) throws IOException {
         this.population.readFields(in);
         this.citiesServed.readFields(in);

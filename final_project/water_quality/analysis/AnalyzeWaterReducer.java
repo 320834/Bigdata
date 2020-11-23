@@ -20,8 +20,9 @@ extends Reducer<Text, AnalyzeWritable, Text, Text>
             population += value.getPop().get();
             citiesServed += value.getCitiesServed().get();
             waterSystems += value.getWaterSystems().get();
-            systemsPerPop += value.getSystemsPerPop().get();
         }
+
+        systemsPerPop = (double)population/waterSystems;
         
         context.write(key, new Text("," + population + "," + citiesServed + "," + waterSystems + "," + systemsPerPop));
     }
