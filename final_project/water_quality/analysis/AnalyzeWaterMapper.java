@@ -43,6 +43,13 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             //Use state, county as key
             String state = lineArr[5].replace("\"", "");
             String county = lineArr[4];
+
+            //For Virginia counties where cities are individual counties
+            if(lineArr[3].length() > 0 && lineArr[4].length() == 0)
+            {
+                count = lineArr[3];
+            }
+
             Text keyMap = new Text(state + "," + county);
 
             context.write(keyMap, valueMap);
