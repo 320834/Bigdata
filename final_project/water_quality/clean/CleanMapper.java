@@ -23,8 +23,8 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
             String county = lineArr[9];
             String state = lineArr[10];
 
-            context.write(new Text(name + "," + population + "," + source + ","
-            + city + "," + county + "," + state), new IntWritable(1));
+            context.write(new Text(name + "\",\"" + population + "\",\"" + source + "\",\""
+            + city + "\",\"" + county + "\",\"" + state), new IntWritable(1));
         }
 
         if(lineArr.length >= 11)
@@ -36,8 +36,8 @@ public class CleanMapper extends Mapper<LongWritable, Text, Text, IntWritable>
             String county = lineArr[9];
             String state = lineArr[10];
 
-            context.write(new Text(name + "," + population + "," + source + ","
-            + city + "," + county + "," + state), new IntWritable(1));
+            context.write(new Text(name + "\",\"" + population + "\",\"" + source + "\",\""
+            + city + "\",\"" + county + "\",\"" + state), new IntWritable(1));
         }
 
 
