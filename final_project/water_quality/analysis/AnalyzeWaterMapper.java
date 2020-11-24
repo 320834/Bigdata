@@ -84,6 +84,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
         if(pop.length() > 0)
         {
             try{
+                pop = pop.replace(",", "");
                 return Integer.parseInt(pop);
             }
             catch(Exception e)
