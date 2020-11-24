@@ -1,3 +1,3 @@
-New Jersey, Mercer, hey
-New Jersey, Middlesex, what
-New York, Kings, cool
+New Jersey,Mercer,hey
+New Jersey, Middlesex,what
+New York,Kings,cool
