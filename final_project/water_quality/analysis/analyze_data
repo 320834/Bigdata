@@ -76,8 +76,7 @@ Alaska	,Fairbanks North Star Borough	,11602,73,73,158.93150684931507
 Alaska	,Haines Borough	,670,6,6,111.66666666666667
 Alaska	,Juneau City and Borough	,2476,12,13,190.46153846153845
 Alaska	,Kenai Peninsula Borough	,25831,214,216,119.58796296296296
-Alaska	,Ketchikan Gateway Borough	,5799,34,34,170.55882352941177
-Alaska	,Ketchikan Gateway Borough, Ketchikan Gateway Borough	,36,1,1,36.0
+Alaska	,Ketchikan Gateway Borough	,5871,36,36,163.08333333333334
 Alaska	,Kodiak Island Borough	,1601,15,15,106.73333333333333
 Alaska	,Lake and Peninsula Borough	,2369,15,15,157.93333333333334
 Alaska	,Matanuska-Susitna Borough	,44284,315,323,137.10216718266253
@@ -99,129 +98,89 @@ Arizona	,Gila	,17724,109,109,162.60550458715596
 Arizona	,Graham	,2790,16,16,174.375
 Arizona	,Greenlee	,2009,12,12,167.41666666666666
 Arizona	,La Paz	,17782,85,86,206.7674418604651
-Arizona	,Maricopa	,30140,227,227,132.77533039647577
-Arizona	,Maricopa, Pinal	,100,0,1,100.0
+Arizona	,Maricopa	,30240,227,228,132.6315789473684
 Arizona	,Mohave	,18358,111,111,165.38738738738738
 Arizona	,Navajo	,12580,62,62,202.90322580645162
 Arizona	,Pima	,36991,208,208,177.84134615384616
-Arizona	,Pinal	,13802,92,92,150.02173913043478
+Arizona	,Pinal	,13902,92,93,149.48387096774192
 Arizona	,Santa Cruz	,5598,37,38,147.31578947368422
 Arizona	,Yavapai	,39203,243,245,160.0122448979592
 Arizona	,Yuma	,13029,52,52,250.55769230769232
 Arkansas	,Arkansas	,3098,0,11,281.6363636363636
 Arkansas	,Ashley	,4219,0,14,301.35714285714283
-Arkansas	,Baxter	,5797,0,53,109.37735849056604
-Arkansas	,Baxter, Marion	,360,0,1,360.0
-Arkansas	,Benton	,5709,0,60,95.15
-Arkansas	,Benton, Carroll, Madison	,3,0,1,3.0
-Arkansas	,Benton, Madison, Washington	,0,0,1,0.0
-Arkansas	,Benton, Washington	,20,0,3,6.666666666666667
-Arkansas	,Boone	,2476,0,17,145.64705882352942
-Arkansas	,Boone, Carroll	,30,0,1,30.0
-Arkansas	,Boone, Marion	,0,0,1,0.0
-Arkansas	,Boone, Newton	,0,0,2,0.0
-Arkansas	,Boone, Newton, Searcy	,941,0,2,470.5
+Arkansas	,Baxter	,6157,0,54,114.01851851851852
+Arkansas	,Benton	,5732,0,65,88.18461538461538
+Arkansas	,Boone	,3447,0,23,149.8695652173913
 Arkansas	,Bradley	,1908,0,7,272.57142857142856
 Arkansas	,Calhoun	,1608,0,7,229.71428571428572
-Arkansas	,Carroll	,3753,0,45,83.4
+Arkansas	,Carroll	,3786,0,47,80.55319148936171
 Arkansas	,Chicot	,1880,0,7,268.57142857142856
 Arkansas	,Clark	,3398,0,13,261.38461538461536
-Arkansas	,Clay	,1784,0,11,162.1818181818182
-Arkansas	,Clay, Greene	,0,0,1,0.0
-Arkansas	,Clay, Greene, Randolph	,0,0,1,0.0
-Arkansas	,Cleburne	,803,0,5,160.6
-Arkansas	,Cleburne, Faulkner, Van Buren	,0,0,2,0.0
-Arkansas	,Cleburne, Lonoke, White	,0,0,1,0.0
-Arkansas	,Cleburne, Searcy, Stone, Van Buren	,0,0,1,0.0
+Arkansas	,Clay	,1784,0,13,137.23076923076923
+Arkansas	,Cleburne	,803,0,9,89.22222222222223
 Arkansas	,Cleveland	,897,0,6,149.5
 Arkansas	,Columbia	,4080,0,15,272.0
-Arkansas	,Conway	,1301,0,5,260.2
-Arkansas	,Conway, Perry, Yell	,0,0,1,0.0
-Arkansas	,Craighead	,726,0,12,60.5
-Arkansas	,Craighead, Cross, Jackson, Poinsett, St. Francis, Woodruff	,0,0,1,0.0
-Arkansas	,Craighead, Greene, Poinsett	,0,0,1,0.0
-Arkansas	,Craighead, Lawrence, Randolph	,0,0,1,0.0
-Arkansas	,Craighead, Mississippi, Poinsett	,0,0,1,0.0
+Arkansas	,Conway	,1301,0,6,216.83333333333334
+Arkansas	,Craighead	,726,0,16,45.375
 Arkansas	,Crawford	,1690,0,15,112.66666666666667
 Arkansas	,Crittenden	,4129,0,15,275.26666666666665
-Arkansas	,Cross	,2355,0,6,392.5
-Arkansas	,Cross, Poinsett	,0,0,1,0.0
+Arkansas	,Cross	,2355,0,8,294.375
 Arkansas	,Dallas	,485,0,6,80.83333333333333
 Arkansas	,Desha	,3564,0,12,297.0
 Arkansas	,Drew	,3952,0,12,329.3333333333333
-Arkansas	,Faulkner	,165,0,11,15.0
-Arkansas	,Faulkner, Pulaski	,0,0,1,0.0
+Arkansas	,Faulkner	,165,0,14,11.785714285714286
 Arkansas	,Franklin	,1400,0,14,100.0
-Arkansas	,Fulton	,2542,0,14,181.57142857142858
-Arkansas	,Fulton, Sharp	,0,0,3,0.0
+Arkansas	,Fulton	,2542,0,17,149.52941176470588
 Arkansas	,Garland	,2185,0,28,78.03571428571429
-Arkansas	,Grant	,1146,0,7,163.71428571428572
-Arkansas	,Grant, Hot Spring, Saline	,0,0,1,0.0
-Arkansas	,Grant, Jefferson	,0,0,1,0.0
-Arkansas	,Grant, Saline	,0,0,2,0.0
-Arkansas	,Greene	,176,0,6,29.333333333333332
-Arkansas	,Hempstead	,2347,0,12,195.58333333333334
-Arkansas	,Hempstead, Nevada	,550,0,2,275.0
-Arkansas	,Hot Spring	,55,0,8,6.875
+Arkansas	,Grant	,1146,0,11,104.18181818181819
+Arkansas	,Greene	,176,0,9,19.555555555555557
+Arkansas	,Hempstead	,2897,0,14,206.92857142857142
+Arkansas	,Hot Spring	,55,0,9,6.111111111111111
 Arkansas	,Howard	,1158,0,8,144.75
-Arkansas	,Independence	,666,0,12,55.5
-Arkansas	,Independence, Jackson, White	,0,0,1,0.0
-Arkansas	,Independence, Sharp	,0,0,2,0.0
+Arkansas	,Independence	,666,0,15,44.4
 Arkansas	,Izard	,1279,0,10,127.9
-Arkansas	,Jackson	,1825,0,10,182.5
-Arkansas	,Jackson, White	,0,0,1,0.0
-Arkansas	,Jackson, Woodruff	,0,0,1,0.0
-Arkansas	,Jefferson	,2591,0,15,172.73333333333332
+Arkansas	,Jackson	,1825,0,14,130.35714285714286
+Arkansas	,Jefferson	,2591,0,16,161.9375
 Arkansas	,Johnson	,602,0,12,50.166666666666664
 Arkansas	,Lafayette	,1193,0,8,149.125
-Arkansas	,Lawrence	,3543,0,10,354.3
+Arkansas	,Lawrence	,3543,0,11,322.09090909090907
 Arkansas	,Lee	,265,0,7,37.857142857142854
 Arkansas	,Lincoln	,2116,0,6,352.6666666666667
 Arkansas	,Little River	,2092,0,13,160.92307692307693
 Arkansas	,Logan	,3221,0,18,178.94444444444446
-Arkansas	,Lonoke	,880,0,14,62.857142857142854
-Arkansas	,Lonoke, Prairie	,0,0,1,0.0
-Arkansas	,Lonoke, Pulaski	,0,0,1,0.0
-Arkansas	,Madison	,115,0,5,23.0
-Arkansas	,Madison, Washington	,0,0,1,0.0
-Arkansas	,Marion	,1645,0,22,74.77272727272727
-Arkansas	,Marion, Searcy	,0,0,1,0.0
+Arkansas	,Lonoke	,880,0,17,51.76470588235294
+Arkansas	,Madison	,118,0,8,14.75
+Arkansas	,Marion	,2005,0,25,80.2
 Arkansas	,Miller	,2702,0,13,207.84615384615384
-Arkansas	,Mississippi	,5000,0,25,200.0
+Arkansas	,Mississippi	,5000,0,26,192.30769230769232
 Arkansas	,Monroe	,1347,0,6,224.5
 Arkansas	,Montgomery	,1833,0,11,166.63636363636363
-Arkansas	,Nevada	,1225,0,3,408.3333333333333
-Arkansas	,Newton	,6015,0,13,462.6923076923077
-Arkansas	,Newton, Pope	,289,0,1,289.0
+Arkansas	,Nevada	,1775,0,5,355.0
+Arkansas	,Newton	,7245,0,18,402.5
 Arkansas	,Ouachita	,1988,0,12,165.66666666666666
-Arkansas	,Perry	,1813,0,4,453.25
-Arkansas	,Perry, Pulaski	,0,0,2,0.0
+Arkansas	,Perry	,1813,0,7,259.0
 Arkansas	,Phillips	,1102,0,9,122.44444444444444
 Arkansas	,Pike	,1706,0,9,189.55555555555554
-Arkansas	,Poinsett	,3136,0,11,285.09090909090907
-Arkansas	,Polk	,2675,0,16,167.1875
-Arkansas	,Polk, Sevier	,0,0,1,0.0
-Arkansas	,Pope	,220,0,13,16.923076923076923
-Arkansas	,Pope, Searcy, Van Buren	,0,0,1,0.0
-Arkansas	,Prairie	,1953,0,5,390.6
-Arkansas	,Prairie, White	,0,0,1,0.0
-Arkansas	,Pulaski	,1032,0,25,41.28
-Arkansas	,Pulaski, Saline	,0,0,1,0.0
-Arkansas	,Randolph	,1909,0,11,173.54545454545453
-Arkansas	,Saline	,754,0,13,58.0
+Arkansas	,Poinsett	,3136,0,15,209.06666666666666
+Arkansas	,Polk	,2675,0,17,157.35294117647058
+Arkansas	,Pope	,509,0,15,33.93333333333333
+Arkansas	,Prairie	,1953,0,7,279.0
+Arkansas	,Pulaski	,1032,0,30,34.4
+Arkansas	,Randolph	,1909,0,13,146.84615384615384
+Arkansas	,Saline	,754,0,17,44.35294117647059
 Arkansas	,Scott	,75,0,3,25.0
-Arkansas	,Searcy	,1362,0,10,136.2
+Arkansas	,Searcy	,2303,0,15,153.53333333333333
 Arkansas	,Sebastian	,3828,0,23,166.43478260869566
-Arkansas	,Sevier	,1307,0,6,217.83333333333334
-Arkansas	,Sharp	,3845,0,13,295.7692307692308
-Arkansas	,St. Francis	,2766,0,10,276.6
-Arkansas	,Stone	,1005,0,10,100.5
+Arkansas	,Sevier	,1307,0,7,186.71428571428572
+Arkansas	,Sharp	,3845,0,18,213.61111111111111
+Arkansas	,St. Francis	,2766,0,11,251.45454545454547
+Arkansas	,Stone	,1005,0,11,91.36363636363636
 Arkansas	,Union	,8050,0,28,287.5
-Arkansas	,Van Buren	,968,0,6,161.33333333333334
-Arkansas	,Washington	,680,0,29,23.448275862068964
-Arkansas	,White	,2343,0,18,130.16666666666666
-Arkansas	,Woodruff	,1228,0,5,245.6
-Arkansas	,Yell	,1028,0,8,128.5
+Arkansas	,Van Buren	,968,0,10,96.8
+Arkansas	,Washington	,700,0,34,20.58823529411765
+Arkansas	,White	,2343,0,22,106.5
+Arkansas	,Woodruff	,1228,0,7,175.42857142857142
+Arkansas	,Yell	,1028,0,9,114.22222222222223
 California	,Alameda	,2883,4,27,106.77777777777777
 California	,Alpine	,2358,0,43,54.83720930232558
 California	,Amador	,8153,4,71,114.83098591549296
@@ -344,10 +303,9 @@ Colorado	,Teller	,10510,0,51,206.07843137254903
 Colorado	,Washington	,1092,0,6,182.0
 Colorado	,Weld	,7210,2,67,107.61194029850746
 Colorado	,Yuma	,1419,0,12,118.25
-Connecticut	,Fairfield	,35495,364,364,97.51373626373626
-Connecticut	,Fairfield, Litchfield	,0,1,1,0.0
+Connecticut	,Fairfield	,35495,365,365,97.24657534246575
 Connecticut	,Hartford	,17819,219,219,81.36529680365297
-Connecticut	,Litchfield	,35151,362,362,97.10220994475138
+Connecticut	,Litchfield	,35151,363,363,96.83471074380165
 Connecticut	,Middlesex	,25825,282,282,91.57801418439716
 Connecticut	,New Haven	,18989,225,225,84.39555555555556
 Connecticut	,New London	,33493,392,392,85.44132653061224
@@ -466,8 +424,7 @@ Georgia	,Crawford	,713,1,6,118.83333333333333
 Georgia	,Crisp	,2424,17,21,115.42857142857143
 Georgia	,Dade	,0,1,1,0.0
 Georgia	,Dawson	,1105,7,10,110.5
-Georgia	,DeKalb	,0,0,1,0.0
-Georgia	,DeKalb, Fulton	,0,1,1,0.0
+Georgia	,DeKalb	,0,1,2,0.0
 Georgia	,Decatur	,3658,16,24,152.41666666666666
 Georgia	,Dodge	,888,7,8,111.0
 Georgia	,Dooly	,1310,5,7,187.14285714285714
@@ -484,15 +441,14 @@ Georgia	,Fayette	,3089,4,14,220.64285714285714
 Georgia	,Floyd	,280,6,8,35.0
 Georgia	,Forsyth	,1150,3,8,143.75
 Georgia	,Franklin	,2948,6,9,327.55555555555554
-Georgia	,Fulton	,647,9,11,58.81818181818182
+Georgia	,Fulton	,647,10,12,53.916666666666664
 Georgia	,Gilmer	,2077,5,24,86.54166666666667
 Georgia	,Glascock	,1091,3,4,272.75
 Georgia	,Glynn	,10775,49,70,153.92857142857142
 Georgia	,Gordon	,400,2,3,133.33333333333334
 Georgia	,Grady	,3051,12,17,179.47058823529412
 Georgia	,Greene	,4903,13,27,181.59259259259258
-Georgia	,Gwinnett	,2259,3,6,376.5
-Georgia	,Gwinnett, Walton	,0,1,1,0.0
+Georgia	,Gwinnett	,2259,4,7,322.7142857142857
 Georgia	,Habersham	,1416,10,18,78.66666666666667
 Georgia	,Hall	,2392,11,15,159.46666666666667
 Georgia	,Hancock	,2730,4,9,303.3333333333333
@@ -572,7 +528,7 @@ Georgia	,Twiggs	,2090,6,13,160.76923076923077
 Georgia	,Union	,2821,16,29,97.27586206896552
 Georgia	,Upson	,3648,9,16,228.0
 Georgia	,Walker	,1112,5,7,158.85714285714286
-Georgia	,Walton	,1011,3,10,101.1
+Georgia	,Walton	,1011,4,11,91.9090909090909
 Georgia	,Ware	,1457,10,11,132.45454545454547
 Georgia	,Warren	,370,3,3,123.33333333333333
 Georgia	,Washington	,1629,10,12,135.75
@@ -594,8 +550,7 @@ Idaho	,Adams	,3723,0,20,186.15
 Idaho	,Bannock	,9042,2,46,196.56521739130434
 Idaho	,Bear Lake	,4684,1,33,141.93939393939394
 Idaho	,Benewah	,1693,2,15,112.86666666666666
-Idaho	,Bingham	,16601,2,75,221.34666666666666
-Idaho	,Bingham, Twin Falls	,150,0,1,150.0
+Idaho	,Bingham	,16751,2,76,220.4078947368421
 Idaho	,Blaine	,4616,2,46,100.34782608695652
 Idaho	,Boise	,6788,3,49,138.53061224489795
 Idaho	,Bonner	,16109,1,148,108.8445945945946
@@ -631,7 +586,7 @@ Idaho	,Payette	,1561,2,19,82.15789473684211
 Idaho	,Power	,1881,0,15,125.4
 Idaho	,Shoshone	,4819,0,31,155.4516129032258
 Idaho	,Teton	,2877,4,27,106.55555555555556
-Idaho	,Twin Falls	,5595,6,54,103.61111111111111
+Idaho	,Twin Falls	,5745,6,55,104.45454545454545
 Idaho	,Valley	,5738,2,45,127.5111111111111
 Idaho	,Washington	,1286,0,15,85.73333333333333
 Illinois	,Adams	,5761,11,24,240.04166666666666
@@ -828,23 +783,18 @@ Indiana	,Wayne	,7568,60,60,126.13333333333334
 Indiana	,Wells	,6936,19,20,346.8
 Indiana	,White	,7663,71,80,95.7875
 Indiana	,Whitley	,5548,33,34,163.1764705882353
-Iowa	,Adair	,2306,7,7,329.42857142857144
-Iowa	,Adair, Adams, Clarke, Decatur, Madison, Ringgold, Taylor, Union	,0,1,1,0.0
-Iowa	,Adams	,0,2,2,0.0
+Iowa	,Adair	,2306,8,8,288.25
+Iowa	,Adams	,0,3,3,0.0
 Iowa	,Allamakee	,3902,33,33,118.24242424242425
-Iowa	,Appanoose	,2052,5,5,410.4
-Iowa	,Appanoose, Davis, Decatur, Jefferson, Lucas, Monroe, Van Buren, Wayne	,0,1,1,0.0
+Iowa	,Appanoose	,2052,6,6,342.0
 Iowa	,Audubon	,1253,5,5,250.6
 Iowa	,Benton	,6076,23,23,264.17391304347825
-Iowa	,Black Hawk	,2809,20,20,140.45
-Iowa	,Black Hawk, Bremer, Butler, Grundy, Hardin, Jasper, Marshall, Story	,0,1,1,0.0
-Iowa	,Boone	,1125,13,13,86.53846153846153
-Iowa	,Boone, Greene, Hamilton, Webster	,0,1,1,0.0
-Iowa	,Bremer	,3320,15,15,221.33333333333334
+Iowa	,Black Hawk	,2809,21,21,133.76190476190476
+Iowa	,Boone	,1125,14,14,80.35714285714286
+Iowa	,Bremer	,3320,16,16,207.5
 Iowa	,Buchanan	,3376,20,20,168.8
-Iowa	,Buena Vista	,4142,12,12,345.1666666666667
-Iowa	,Buena Vista, Clay	,0,1,1,0.0
-Iowa	,Butler	,1703,16,16,106.4375
+Iowa	,Buena Vista	,4142,13,13,318.61538461538464
+Iowa	,Butler	,1703,17,17,100.17647058823529
 Iowa	,Calhoun	,2793,15,15,186.2
 Iowa	,Carroll	,2252,14,14,160.85714285714286
 Iowa	,Cass	,2539,12,12,211.58333333333334
@@ -852,61 +802,55 @@ Iowa	,Cedar	,4845,22,22,220.22727272727272
 Iowa	,Cerro Gordo	,4115,35,35,117.57142857142857
 Iowa	,Cherokee	,1269,12,12,105.75
 Iowa	,Chickasaw	,3177,26,26,122.1923076923077
-Iowa	,Clarke	,756,3,3,252.0
-Iowa	,Clay	,1952,7,7,278.85714285714283
+Iowa	,Clarke	,756,4,4,189.0
+Iowa	,Clay	,1952,8,8,244.0
 Iowa	,Clayton	,7732,46,46,168.08695652173913
 Iowa	,Clinton	,5617,27,27,208.03703703703704
 Iowa	,Crawford	,3962,10,10,396.2
-Iowa	,Dallas	,4372,23,23,190.08695652173913
-Iowa	,Dallas, Polk	,0,1,1,0.0
-Iowa	,Davis	,263,2,2,131.5
-Iowa	,Decatur	,219,4,4,54.75
+Iowa	,Dallas	,4372,24,24,182.16666666666666
+Iowa	,Davis	,263,3,3,87.66666666666667
+Iowa	,Decatur	,219,6,6,36.5
 Iowa	,Delaware	,4296,30,30,143.2
-Iowa	,Des Moines	,2214,9,9,246.0
-Iowa	,Des Moines, Henry	,0,1,1,0.0
+Iowa	,Des Moines	,2214,10,10,221.4
 Iowa	,Dickinson	,3329,20,20,166.45
-Iowa	,Dubuque	,10096,79,79,127.79746835443038
-Iowa	,Dubuque, Jones	,80,1,1,80.0
+Iowa	,Dubuque	,10176,80,80,127.2
 Iowa	,Emmet	,2119,11,11,192.63636363636363
 Iowa	,Fayette	,5209,25,25,208.36
 Iowa	,Floyd	,3577,17,17,210.41176470588235
 Iowa	,Franklin	,2983,20,20,149.15
 Iowa	,Fremont	,1706,14,14,121.85714285714286
-Iowa	,Greene	,1883,6,6,313.8333333333333
-Iowa	,Grundy	,1406,8,8,175.75
+Iowa	,Greene	,1883,7,7,269.0
+Iowa	,Grundy	,1406,9,9,156.22222222222223
 Iowa	,Guthrie	,2193,11,11,199.36363636363637
-Iowa	,Hamilton	,3571,13,13,274.6923076923077
+Iowa	,Hamilton	,3571,14,14,255.07142857142858
 Iowa	,Hancock	,2793,18,18,155.16666666666666
-Iowa	,Hardin	,4191,21,21,199.57142857142858
+Iowa	,Hardin	,4191,22,22,190.5
 Iowa	,Harrison	,2440,19,19,128.42105263157896
-Iowa	,Henry	,2447,11,11,222.45454545454547
-Iowa	,Howard	,2760,21,21,131.42857142857142
-Iowa	,Howard, Mitchell	,793,1,1,793.0
+Iowa	,Henry	,2447,12,12,203.91666666666666
+Iowa	,Howard	,3553,22,22,161.5
 Iowa	,Humboldt	,2536,13,13,195.07692307692307
 Iowa	,Ida	,1758,7,7,251.14285714285714
 Iowa	,Iowa	,2789,16,16,174.3125
 Iowa	,Jackson	,3645,30,30,121.5
-Iowa	,Jasper	,2577,11,11,234.27272727272728
-Iowa	,Jefferson	,1680,5,5,336.0
-Iowa	,Jefferson, Keokuk, Wapello, Washington	,0,1,1,0.0
+Iowa	,Jasper	,2577,12,12,214.75
+Iowa	,Jefferson	,1680,7,7,240.0
 Iowa	,Johnson	,18275,130,130,140.57692307692307
-Iowa	,Jones	,4833,38,38,127.1842105263158
-Iowa	,Keokuk	,3062,11,11,278.3636363636364
+Iowa	,Jones	,4913,39,39,125.97435897435898
+Iowa	,Keokuk	,3062,12,12,255.16666666666666
 Iowa	,Kossuth	,5845,29,29,201.55172413793105
 Iowa	,Lee	,3346,8,8,418.25
 Iowa	,Linn	,14497,86,86,168.56976744186048
 Iowa	,Louisa	,3937,25,25,157.48
-Iowa	,Lucas	,554,2,2,277.0
+Iowa	,Lucas	,554,3,3,184.66666666666666
 Iowa	,Lyon	,3802,12,12,316.8333333333333
-Iowa	,Madison	,485,3,3,161.66666666666666
-Iowa	,Madison, Warren	,0,1,1,0.0
+Iowa	,Madison	,485,5,5,97.0
 Iowa	,Mahaska	,0,3,3,0.0
 Iowa	,Marion	,2010,13,13,154.6153846153846
-Iowa	,Marshall	,4798,12,12,399.8333333333333
+Iowa	,Marshall	,4798,13,13,369.0769230769231
 Iowa	,Mills	,2081,15,15,138.73333333333332
-Iowa	,Mitchell	,1336,16,16,83.5
+Iowa	,Mitchell	,2129,17,17,125.23529411764706
 Iowa	,Monona	,2660,14,14,190.0
-Iowa	,Monroe	,563,2,2,281.5
+Iowa	,Monroe	,563,3,3,187.66666666666666
 Iowa	,Montgomery	,1039,5,5,207.8
 Iowa	,Muscatine	,7051,40,40,176.275
 Iowa	,O'Brien	,1744,7,7,249.14285714285714
@@ -915,25 +859,24 @@ Iowa	,Page	,1553,9,9,172.55555555555554
 Iowa	,Palo Alto	,2865,8,8,358.125
 Iowa	,Plymouth	,2564,13,13,197.23076923076923
 Iowa	,Pocahontas	,2635,11,11,239.54545454545453
-Iowa	,Polk	,5395,27,27,199.8148148148148
-Iowa	,Pottawattamie	,7791,34,34,229.14705882352942
-Iowa	,Pottawattamie, Shelby	,0,1,1,0.0
+Iowa	,Polk	,5395,28,28,192.67857142857142
+Iowa	,Pottawattamie	,7791,35,35,222.6
 Iowa	,Poweshiek	,1060,8,8,132.5
-Iowa	,Ringgold	,645,3,3,215.0
+Iowa	,Ringgold	,645,4,4,161.25
 Iowa	,Sac	,2760,9,9,306.6666666666667
 Iowa	,Scott	,10401,76,76,136.85526315789474
-Iowa	,Shelby	,2792,8,8,349.0
+Iowa	,Shelby	,2792,9,9,310.22222222222223
 Iowa	,Sioux	,2744,16,16,171.5
-Iowa	,Story	,5552,21,21,264.3809523809524
+Iowa	,Story	,5552,22,22,252.36363636363637
 Iowa	,Tama	,3364,13,13,258.7692307692308
-Iowa	,Taylor	,415,3,3,138.33333333333334
-Iowa	,Union	,0,1,1,0.0
-Iowa	,Van Buren	,2495,7,7,356.42857142857144
-Iowa	,Wapello	,2011,6,6,335.1666666666667
-Iowa	,Warren	,3242,12,12,270.1666666666667
-Iowa	,Washington	,4564,24,24,190.16666666666666
-Iowa	,Wayne	,1957,5,5,391.4
-Iowa	,Webster	,6310,30,30,210.33333333333334
+Iowa	,Taylor	,415,4,4,103.75
+Iowa	,Union	,0,2,2,0.0
+Iowa	,Van Buren	,2495,8,8,311.875
+Iowa	,Wapello	,2011,7,7,287.2857142857143
+Iowa	,Warren	,3242,13,13,249.3846153846154
+Iowa	,Washington	,4564,25,25,182.56
+Iowa	,Wayne	,1957,6,6,326.1666666666667
+Iowa	,Webster	,6310,31,31,203.5483870967742
 Iowa	,Winnebago	,3148,19,19,165.68421052631578
 Iowa	,Winneshiek	,6602,46,46,143.52173913043478
 Iowa	,Woodbury	,7124,28,28,254.42857142857142
@@ -1318,8 +1261,7 @@ Michigan	,Iosco	,7909,2,80,98.8625
 Michigan	,Iron	,8622,6,29,297.3103448275862
 Michigan	,Isabella	,9689,1,75,129.18666666666667
 Michigan	,Jackson	,39175,15,234,167.4145299145299
-Michigan	,Kalamazoo	,33638,8,196,171.62244897959184
-Michigan	,Kalamazoo, Schoolcraft	,0,0,1,0.0
+Michigan	,Kalamazoo	,33638,8,197,170.751269035533
 Michigan	,Kalkaska	,4530,1,58,78.10344827586206
 Michigan	,Kent	,67949,13,372,182.65860215053763
 Michigan	,Keweenaw	,2761,5,21,131.47619047619048
@@ -1355,7 +1297,7 @@ Michigan	,Presque Isle	,7436,4,56,132.78571428571428
 Michigan	,Roscommon	,33073,8,222,148.97747747747746
 Michigan	,Saginaw	,4643,3,61,76.11475409836065
 Michigan	,Sanilac	,11728,3,76,154.31578947368422
-Michigan	,Schoolcraft	,4083,3,58,70.39655172413794
+Michigan	,Schoolcraft	,4083,3,59,69.20338983050847
 Michigan	,Shiawassee	,17605,7,138,127.57246376811594
 Michigan	,St. Clair	,7118,8,102,69.7843137254902
 Michigan	,St. Joseph	,13912,8,108,128.8148148148148
@@ -1534,130 +1476,106 @@ Mississippi	,Winston	,2648,1,11,240.72727272727272
 Mississippi	,Yalobusha	,4860,1,20,243.0
 Mississippi	,Yazoo	,5703,1,18,316.8333333333333
 Missouri	,Adair	,838,4,4,209.5
-Missouri	,Andrew	,1406,8,10,140.6
-Missouri	,Andrew, Buchanan, DeKalb	,0,1,1,0.0
+Missouri	,Andrew	,1406,9,11,127.81818181818181
 Missouri	,Atchison	,1581,5,6,263.5
-Missouri	,Audrain	,1265,7,7,180.71428571428572
-Missouri	,Audrain, Monroe, Montgomery	,0,1,1,0.0
+Missouri	,Audrain	,1265,8,8,158.125
 Missouri	,Barry	,11010,31,86,128.02325581395348
-Missouri	,Barton	,1863,3,4,465.75
-Missouri	,Barton, Cedar, Dade, Jasper	,0,0,1,0.0
-Missouri	,Bates	,1963,7,12,163.58333333333334
-Missouri	,Bates, Cass	,560,0,1,560.0
-Missouri	,Bates, Cass, Jackson	,25,0,1,25.0
-Missouri	,Bates, Vernon	,0,1,1,0.0
+Missouri	,Barton	,1863,3,5,372.6
+Missouri	,Bates	,2548,8,15,169.86666666666667
 Missouri	,Benton	,8955,21,87,102.93103448275862
 Missouri	,Bollinger	,3086,4,14,220.42857142857142
 Missouri	,Boone	,1837,12,13,141.30769230769232
-Missouri	,Buchanan	,754,3,5,150.8
+Missouri	,Buchanan	,754,4,6,125.66666666666667
 Missouri	,Butler	,2634,8,16,164.625
-Missouri	,Caldwell	,3069,6,8,383.625
-Missouri	,Caldwell, Clay, Ray	,0,1,1,0.0
-Missouri	,Caldwell, Clinton, Daviess, DeKalb	,0,0,1,0.0
+Missouri	,Caldwell	,3069,7,10,306.9
 Missouri	,Callaway	,3481,9,15,232.06666666666666
 Missouri	,Camden	,23204,32,243,95.48971193415638
 Missouri	,Cape Girardeau	,4130,13,27,152.96296296296296
 Missouri	,Carroll	,2032,7,8,254.0
 Missouri	,Carter	,3344,6,9,371.55555555555554
-Missouri	,Cass	,4945,24,29,170.51724137931035
-Missouri	,Cass, Clay, Clinton, Jackson, Platte	,0,1,1,0.0
-Missouri	,Cedar	,1814,14,28,64.78571428571429
+Missouri	,Cass	,5530,25,32,172.8125
+Missouri	,Cedar	,1814,14,29,62.55172413793103
 Missouri	,Chariton	,1541,5,5,308.2
 Missouri	,Christian	,5027,21,42,119.69047619047619
 Missouri	,Clark	,760,4,4,190.0
-Missouri	,Clay	,2061,18,20,103.05
-Missouri	,Clinton	,1935,7,7,276.42857142857144
+Missouri	,Clay	,2061,20,22,93.68181818181819
+Missouri	,Clinton	,1935,8,9,215.0
 Missouri	,Cole	,3683,11,17,216.64705882352942
 Missouri	,Cooper	,2619,8,8,327.375
-Missouri	,Crawford	,3661,8,34,107.67647058823529
-Missouri	,Crawford, Franklin	,0,1,1,0.0
-Missouri	,Dade	,2941,9,18,163.38888888888889
-Missouri	,Dallas	,1936,5,18,107.55555555555556
-Missouri	,Dallas, Polk	,60,1,1,60.0
-Missouri	,Daviess	,2005,8,9,222.77777777777777
-Missouri	,Daviess, Livingston	,0,1,1,0.0
-Missouri	,DeKalb	,1985,5,6,330.8333333333333
+Missouri	,Crawford	,3661,9,35,104.6
+Missouri	,Dade	,2941,9,19,154.78947368421052
+Missouri	,Dallas	,1996,6,19,105.05263157894737
+Missouri	,Daviess	,2005,9,11,182.27272727272728
+Missouri	,DeKalb	,1985,6,8,248.125
 Missouri	,Dent	,1771,5,16,110.6875
 Missouri	,Douglas	,715,4,10,71.5
-Missouri	,Dunklin	,2597,11,13,199.76923076923077
-Missouri	,Dunklin, Pemiscot	,0,1,1,0.0
-Missouri	,Franklin	,9322,9,76,122.65789473684211
+Missouri	,Dunklin	,2597,12,14,185.5
+Missouri	,Franklin	,9322,10,77,121.06493506493507
 Missouri	,Gasconade	,2251,8,18,125.05555555555556
-Missouri	,Gentry	,900,4,5,180.0
-Missouri	,Gentry, Worth	,25,1,1,25.0
+Missouri	,Gentry	,925,5,6,154.16666666666666
 Missouri	,Greene	,11809,31,84,140.58333333333334
 Missouri	,Grundy	,747,5,5,149.4
-Missouri	,Harrison	,2320,6,7,331.42857142857144
-Missouri	,Harrison, Mercer	,0,1,1,0.0
-Missouri	,Henry	,2440,9,12,203.33333333333334
-Missouri	,Henry, St. Clair	,0,1,1,0.0
+Missouri	,Harrison	,2320,7,8,290.0
+Missouri	,Henry	,2440,10,13,187.69230769230768
 Missouri	,Hickory	,6162,21,45,136.93333333333334
 Missouri	,Holt	,723,5,6,120.5
 Missouri	,Howard	,25,5,6,4.166666666666667
 Missouri	,Howell	,2781,9,17,163.58823529411765
-Missouri	,Iron	,4891,11,22,222.3181818181818
-Missouri	,Iron, St. Francois	,200,0,1,200.0
-Missouri	,Jackson	,2338,15,22,106.27272727272727
-Missouri	,Jasper	,4168,22,40,104.2
+Missouri	,Iron	,5091,11,23,221.34782608695653
+Missouri	,Jackson	,2363,16,24,98.45833333333333
+Missouri	,Jasper	,4168,22,41,101.65853658536585
 Missouri	,Jefferson	,14749,12,98,150.5
-Missouri	,Johnson	,1985,11,15,132.33333333333334
-Missouri	,Johnson, Lafayette, Saline	,0,0,1,0.0
-Missouri	,Johnson, Pettis, Saline	,0,1,1,0.0
+Missouri	,Johnson	,1985,12,17,116.76470588235294
 Missouri	,Knox	,0,2,2,0.0
 Missouri	,Laclede	,2596,6,17,152.7058823529412
-Missouri	,Lafayette	,3378,11,14,241.28571428571428
+Missouri	,Lafayette	,3378,11,15,225.2
 Missouri	,Lawrence	,3742,13,32,116.9375
 Missouri	,Lewis	,1240,5,5,248.0
-Missouri	,Lincoln	,4240,9,46,92.17391304347827
-Missouri	,Lincoln, Warren	,0,0,1,0.0
+Missouri	,Lincoln	,4240,9,47,90.2127659574468
 Missouri	,Linn	,1805,9,9,200.55555555555554
-Missouri	,Livingston	,494,7,7,70.57142857142857
+Missouri	,Livingston	,494,8,8,61.75
 Missouri	,Macon	,1573,7,7,224.71428571428572
 Missouri	,Madison	,354,4,6,59.0
-Missouri	,Maries	,2586,2,11,235.0909090909091
-Missouri	,Maries, Osage	,358,2,2,179.0
+Missouri	,Maries	,2944,4,13,226.46153846153845
 Missouri	,Marion	,0,3,3,0.0
 Missouri	,McDonald	,4780,9,26,183.84615384615384
-Missouri	,Mercer	,318,2,2,159.0
+Missouri	,Mercer	,318,3,3,106.0
 Missouri	,Miller	,6901,12,51,135.31372549019608
 Missouri	,Mississippi	,1429,5,6,238.16666666666666
-Missouri	,Moniteau	,1345,6,11,122.27272727272727
-Missouri	,Moniteau, Morgan	,203,1,1,203.0
-Missouri	,Monroe	,579,3,4,144.75
-Missouri	,Montgomery	,3672,10,21,174.85714285714286
-Missouri	,Montgomery, Warren	,0,0,1,0.0
-Missouri	,Morgan	,8818,5,72,122.47222222222223
+Missouri	,Moniteau	,1548,7,12,129.0
+Missouri	,Monroe	,579,4,5,115.8
+Missouri	,Montgomery	,3672,11,23,159.65217391304347
+Missouri	,Morgan	,9021,6,73,123.57534246575342
 Missouri	,New Madrid	,5798,13,15,386.53333333333336
 Missouri	,Newton	,5828,23,44,132.45454545454547
 Missouri	,Nodaway	,2947,10,12,245.58333333333334
 Missouri	,Oregon	,2383,6,7,340.42857142857144
-Missouri	,Osage	,2887,11,15,192.46666666666667
+Missouri	,Osage	,3245,13,17,190.88235294117646
 Missouri	,Ozark	,4330,8,26,166.53846153846155
-Missouri	,Pemiscot	,1479,5,6,246.5
+Missouri	,Pemiscot	,1479,6,7,211.28571428571428
 Missouri	,Perry	,3528,8,14,252.0
-Missouri	,Pettis	,3348,13,32,104.625
+Missouri	,Pettis	,3348,14,33,101.45454545454545
 Missouri	,Phelps	,3850,13,28,137.5
 Missouri	,Pike	,1020,6,6,170.0
-Missouri	,Platte	,3729,17,19,196.26315789473685
-Missouri	,Polk	,3692,12,22,167.8181818181818
+Missouri	,Platte	,3729,18,20,186.45
+Missouri	,Polk	,3752,13,23,163.1304347826087
 Missouri	,Pulaski	,2551,12,22,115.95454545454545
 Missouri	,Putnam	,585,3,3,195.0
 Missouri	,Ralls	,1669,3,4,417.25
 Missouri	,Randolph	,1125,6,6,187.5
-Missouri	,Ray	,2435,7,8,304.375
+Missouri	,Ray	,2435,8,9,270.55555555555554
 Missouri	,Reynolds	,5481,15,29,189.0
 Missouri	,Ripley	,1742,5,8,217.75
-Missouri	,Saline	,2071,11,11,188.27272727272728
+Missouri	,Saline	,2071,12,13,159.30769230769232
 Missouri	,Schuyler	,1258,4,4,314.5
 Missouri	,Scotland	,0,2,2,0.0
 Missouri	,Scott	,5557,12,19,292.4736842105263
 Missouri	,Shannon	,3994,10,19,210.21052631578948
 Missouri	,Shelby	,1549,5,5,309.8
-Missouri	,St. Charles	,6039,11,50,120.78
-Missouri	,St. Charles, St. Louis	,0,0,1,0.0
-Missouri	,St. Clair	,4093,5,16,255.8125
-Missouri	,St. Francois	,6649,14,41,162.17073170731706
-Missouri	,St. Louis	,2161,2,25,86.44
+Missouri	,St. Charles	,6039,11,51,118.41176470588235
+Missouri	,St. Clair	,4093,6,17,240.76470588235293
+Missouri	,St. Francois	,6849,14,42,163.07142857142858
+Missouri	,St. Louis	,2161,2,26,83.11538461538461
 Missouri	,St. Louis city	,0,1,1,0.0
 Missouri	,Ste. Genevieve	,2880,9,17,169.41176470588235
 Missouri	,Stoddard	,5699,17,19,299.94736842105266
@@ -1665,12 +1583,12 @@ Missouri	,Stone	,23979,44,222,108.01351351351352
 Missouri	,Sullivan	,1252,6,8,156.5
 Missouri	,Taney	,13884,29,110,126.21818181818182
 Missouri	,Texas	,1902,12,14,135.85714285714286
-Missouri	,Vernon	,1871,8,8,233.875
-Missouri	,Warren	,3793,5,24,158.04166666666666
+Missouri	,Vernon	,1871,9,9,207.88888888888889
+Missouri	,Warren	,3793,5,26,145.8846153846154
 Missouri	,Washington	,5483,6,34,161.26470588235293
 Missouri	,Wayne	,5328,13,30,177.6
 Missouri	,Webster	,4686,11,24,195.25
-Missouri	,Worth	,1022,3,3,340.6666666666667
+Missouri	,Worth	,1047,4,4,261.75
 Missouri	,Wright	,2221,7,11,201.9090909090909
 Montana	,Beaverhead	,5317,51,51,104.25490196078431
 Montana	,Big Horn	,5900,29,29,203.44827586206895
@@ -1686,23 +1604,20 @@ Montana	,Dawson	,4153,29,29,143.20689655172413
 Montana	,Deer Lodge	,2813,15,15,187.53333333333333
 Montana	,Fallon	,327,4,4,81.75
 Montana	,Fergus	,2420,22,22,110.0
-Montana	,Flathead	,40516,319,321,126.21806853582555
-Montana	,Flathead, Glacier	,320,0,1,320.0
-Montana	,Flathead, Lake	,74,0,1,74.0
-Montana	,Gallatin	,25763,184,185,139.25945945945946
-Montana	,Gallatin, Madison	,40,1,1,40.0
+Montana	,Flathead	,40910,319,323,126.656346749226
+Montana	,Gallatin	,25803,185,186,138.7258064516129
 Montana	,Garfield	,766,5,5,153.2
-Montana	,Glacier	,5272,27,27,195.25925925925927
+Montana	,Glacier	,5592,27,28,199.71428571428572
 Montana	,Golden Valley	,499,4,4,124.75
 Montana	,Granite	,3854,21,22,175.1818181818182
 Montana	,Hill	,1364,16,16,85.25
 Montana	,Jefferson	,7039,41,41,171.6829268292683
 Montana	,Judith Basin	,1098,9,9,122.0
-Montana	,Lake	,10534,89,89,118.35955056179775
+Montana	,Lake	,10608,89,90,117.86666666666666
 Montana	,Lewis and Clark	,26934,153,153,176.0392156862745
 Montana	,Liberty	,1735,7,7,247.85714285714286
 Montana	,Lincoln	,9468,90,91,104.04395604395604
-Montana	,Madison	,7162,45,45,159.15555555555557
+Montana	,Madison	,7202,46,46,156.56521739130434
 Montana	,McCone	,877,7,7,125.28571428571429
 Montana	,Meagher	,825,8,8,103.125
 Montana	,Mineral	,4762,35,36,132.27777777777777
@@ -1744,8 +1659,7 @@ Nebraska	,Buffalo	,5094,41,42,121.28571428571429
 Nebraska	,Burt	,1565,7,7,223.57142857142858
 Nebraska	,Butler	,2342,13,15,156.13333333333333
 Nebraska	,Cass	,5966,39,42,142.04761904761904
-Nebraska	,Cedar	,3259,16,16,203.6875
-Nebraska	,Cedar, Knox, Pierce	,280,0,1,280.0
+Nebraska	,Cedar	,3539,16,17,208.1764705882353
 Nebraska	,Chase	,602,3,3,200.66666666666666
 Nebraska	,Cherry	,892,15,15,59.46666666666667
 Nebraska	,Cheyenne	,1649,11,11,149.9090909090909
@@ -1762,11 +1676,9 @@ Nebraska	,Dodge	,3659,16,16,228.6875
 Nebraska	,Douglas	,5478,48,51,107.41176470588235
 Nebraska	,Dundy	,1161,3,3,387.0
 Nebraska	,Fillmore	,2189,12,12,182.41666666666666
-Nebraska	,Franklin	,2210,7,7,315.7142857142857
-Nebraska	,Franklin, Nuckolls, Webster	,200,0,1,200.0
+Nebraska	,Franklin	,2410,7,8,301.25
 Nebraska	,Frontier	,1982,11,11,180.1818181818182
-Nebraska	,Furnas	,1815,7,7,259.2857142857143
-Nebraska	,Furnas, Red Willow	,0,1,1,0.0
+Nebraska	,Furnas	,1815,8,8,226.875
 Nebraska	,Gage	,4269,27,27,158.11111111111111
 Nebraska	,Garden	,908,5,5,181.6
 Nebraska	,Garfield	,315,6,7,45.0
@@ -1787,7 +1699,7 @@ Nebraska	,Kearney	,1591,8,10,159.1
 Nebraska	,Keith	,3506,40,40,87.65
 Nebraska	,Keya Paha	,267,2,2,133.5
 Nebraska	,Kimball	,561,6,6,93.5
-Nebraska	,Knox	,4261,20,20,213.05
+Nebraska	,Knox	,4541,20,21,216.23809523809524
 Nebraska	,Lancaster	,8842,92,96,92.10416666666667
 Nebraska	,Lincoln	,6684,46,49,136.40816326530611
 Nebraska	,Logan	,330,2,2,165.0
@@ -1798,15 +1710,15 @@ Nebraska	,Merrick	,1620,9,9,180.0
 Nebraska	,Morrill	,622,12,12,51.833333333333336
 Nebraska	,Nance	,1414,7,7,202.0
 Nebraska	,Nemaha	,4222,12,12,351.8333333333333
-Nebraska	,Nuckolls	,1085,5,5,217.0
+Nebraska	,Nuckolls	,1285,5,6,214.16666666666666
 Nebraska	,Otoe	,1865,10,12,155.41666666666666
 Nebraska	,Pawnee	,1518,6,8,189.75
 Nebraska	,Perkins	,887,5,5,177.4
 Nebraska	,Phelps	,1467,5,5,293.4
-Nebraska	,Pierce	,1270,10,10,127.0
+Nebraska	,Pierce	,1550,10,11,140.9090909090909
 Nebraska	,Platte	,4344,32,32,135.75
 Nebraska	,Polk	,1951,5,5,390.2
-Nebraska	,Red Willow	,1225,8,8,153.125
+Nebraska	,Red Willow	,1225,9,9,136.11111111111111
 Nebraska	,Richardson	,3718,11,11,338.0
 Nebraska	,Rock	,760,4,4,190.0
 Nebraska	,Saline	,2735,16,17,160.88235294117646
@@ -1824,7 +1736,7 @@ Nebraska	,Thurston	,2918,13,15,194.53333333333333
 Nebraska	,Valley	,733,6,6,122.16666666666667
 Nebraska	,Washington	,3141,19,22,142.77272727272728
 Nebraska	,Wayne	,975,5,5,195.0
-Nebraska	,Webster	,1428,5,5,285.6
+Nebraska	,Webster	,1628,5,6,271.3333333333333
 Nebraska	,Wheeler	,486,4,4,121.5
 Nebraska	,York	,5495,25,27,203.5185185185185
 Nevada	,Churchill	,3256,4,31,105.03225806451613
@@ -1853,42 +1765,29 @@ New Hampshire	,Merrimack	,39531,244,244,162.0122950819672
 New Hampshire	,Rockingham	,89002,571,571,155.87040280210158
 New Hampshire	,Strafford	,20102,136,136,147.80882352941177
 New Hampshire	,Sullivan	,10358,63,63,164.4126984126984
-New Jersey	,Atlantic	,24749,197,197,125.62944162436548
-New Jersey	,Atlantic, Essex	,152,1,1,152.0
-New Jersey	,Bergen	,6259,49,49,127.73469387755102
-New Jersey	,Bergen, Hudson	,0,1,1,0.0
-New Jersey	,Bergen, Passaic	,0,1,1,0.0
-New Jersey	,Burlington	,47908,288,288,166.34722222222223
-New Jersey	,Burlington, Camden	,0,1,1,0.0
-New Jersey	,Camden	,9806,106,106,92.50943396226415
+New Jersey	,Atlantic	,24901,198,198,125.76262626262626
+New Jersey	,Bergen	,6259,51,51,122.72549019607843
+New Jersey	,Burlington	,47908,289,289,165.77162629757785
+New Jersey	,Camden	,9806,107,107,91.64485981308411
 New Jersey	,Cape May	,41670,170,170,245.11764705882354
-New Jersey	,Cumberland	,19683,132,132,149.11363636363637
-New Jersey	,Cumberland, Gloucester	,0,1,1,0.0
-New Jersey	,Essex	,2627,29,29,90.58620689655173
-New Jersey	,Essex, Hunterdon, Morris, Passaic, Somerset, Union, Warren	,0,1,1,0.0
-New Jersey	,Gloucester	,31779,189,189,168.14285714285714
-New Jersey	,Hudson	,0,6,6,0.0
-New Jersey	,Hunterdon	,52132,300,300,173.77333333333334
-New Jersey	,Hunterdon, Morris	,0,1,1,0.0
+New Jersey	,Cumberland	,19683,133,133,147.99248120300751
+New Jersey	,Essex	,2779,31,31,89.64516129032258
+New Jersey	,Gloucester	,31779,190,190,167.2578947368421
+New Jersey	,Hudson	,0,7,7,0.0
+New Jersey	,Hunterdon	,52132,302,302,172.6225165562914
 New Jersey	,Mercer	,15656,94,94,166.5531914893617
-New Jersey	,Middlesex	,3425,35,35,97.85714285714286
-New Jersey	,Middlesex, Monmouth	,0,1,1,0.0
-New Jersey	,Middlesex, Somerset	,0,1,1,0.0
-New Jersey	,Monmouth	,50239,316,316,158.98417721518987
-New Jersey	,Monmouth, Ocean	,0,1,1,0.0
-New Jersey	,Morris	,52725,338,338,155.99112426035504
-New Jersey	,Morris, Passaic	,0,1,1,0.0
-New Jersey	,Ocean	,29471,222,222,132.75225225225225
-New Jersey	,Passaic	,25906,155,155,167.13548387096773
+New Jersey	,Middlesex	,3425,37,37,92.56756756756756
+New Jersey	,Monmouth	,50239,318,318,157.98427672955975
+New Jersey	,Morris	,52725,341,341,154.61876832844575
+New Jersey	,Ocean	,29471,223,223,132.15695067264573
+New Jersey	,Passaic	,25906,158,158,163.9620253164557
 New Jersey	,Salem	,20926,107,107,195.57009345794393
-New Jersey	,Somerset	,15549,104,104,149.5096153846154
+New Jersey	,Somerset	,15549,106,106,146.68867924528303
 New Jersey	,Sussex	,76461,485,485,157.6515463917526
-New Jersey	,Union	,644,9,9,71.55555555555556
-New Jersey	,Warren	,31201,228,228,136.84649122807016
-New Mexico	,Bernalillo	,13024,84,85,153.2235294117647
-New Mexico	,Bernalillo, Santa Fe	,0,1,1,0.0
-New Mexico	,Catron	,2026,12,13,155.84615384615384
-New Mexico	,Catron, Grant	,219,1,1,219.0
+New Jersey	,Union	,644,10,10,64.4
+New Jersey	,Warren	,31201,229,229,136.24890829694323
+New Mexico	,Bernalillo	,13024,85,86,151.4418604651163
+New Mexico	,Catron	,2245,13,14,160.35714285714286
 New Mexico	,Chaves	,2961,14,14,211.5
 New Mexico	,Cibola	,3971,19,19,209.0
 New Mexico	,Colfax	,6659,36,55,121.07272727272728
@@ -1896,7 +1795,7 @@ New Mexico	,Curry	,2392,18,18,132.88888888888889
 New Mexico	,De Baca	,606,4,4,151.5
 New Mexico	,Dona Ana	,14655,75,75,195.4
 New Mexico	,Eddy	,5993,31,31,193.32258064516128
-New Mexico	,Grant	,4655,30,30,155.16666666666666
+New Mexico	,Grant	,4874,31,31,157.2258064516129
 New Mexico	,Guadalupe	,3706,12,12,308.8333333333333
 New Mexico	,Harding	,756,2,2,378.0
 New Mexico	,Hidalgo	,865,8,8,108.125
@@ -1913,7 +1812,7 @@ New Mexico	,Roosevelt	,715,7,7,102.14285714285714
 New Mexico	,San Juan	,2593,24,24,108.04166666666667
 New Mexico	,San Miguel	,7295,43,44,165.79545454545453
 New Mexico	,Sandoval	,12278,63,63,194.88888888888889
-New Mexico	,Santa Fe	,10864,83,85,127.81176470588235
+New Mexico	,Santa Fe	,10864,84,86,126.32558139534883
 New Mexico	,Sierra	,1884,21,21,89.71428571428571
 New Mexico	,Socorro	,2829,22,22,128.5909090909091
 New Mexico	,Taos	,15660,95,99,158.1818181818182
@@ -1922,7 +1821,7 @@ New Mexico	,Union	,1434,8,8,179.25
 New Mexico	,Valencia	,4174,30,32,130.4375
 New York	,Albany	,6902,61,62,111.3225806451613
 New York	,Allegany	,12554,81,82,153.09756097560975
-New York	,Bronx, Kings, New York, Queens, Richmond	,0,1,1,0.0
+New York	,Bronx	,0,1,1,0.0
 New York	,Broome	,17981,167,167,107.67065868263474
 New York	,Cattaraugus	,21095,157,157,134.36305732484075
 New York	,Cayuga	,14236,92,92,154.7391304347826
@@ -1943,25 +1842,27 @@ New York	,Greene	,23072,213,215,107.31162790697674
 New York	,Hamilton	,11246,88,88,127.79545454545455
 New York	,Herkimer	,15128,122,122,124.0
 New York	,Jefferson	,27471,168,174,157.8793103448276
+New York	,Kings	,0,1,1,0.0
 New York	,Lewis	,12282,69,69,178.0
 New York	,Livingston	,5729,48,51,112.33333333333333
 New York	,Madison	,8560,97,100,85.6
-New York	,Monroe	,1711,21,21,81.47619047619048
-New York	,Monroe, Orleans	,0,1,1,0.0
+New York	,Monroe	,1711,22,22,77.77272727272727
 New York	,Montgomery	,6314,57,57,110.7719298245614
 New York	,Nassau	,375,44,44,8.522727272727273
+New York	,New York	,0,1,1,0.0
 New York	,Niagara	,1153,24,24,48.041666666666664
 New York	,Oneida	,16764,129,130,128.95384615384614
 New York	,Onondaga	,8832,90,91,97.05494505494505
 New York	,Ontario	,6072,60,60,101.2
-New York	,Orange	,66437,436,440,150.99318181818182
-New York	,Orange, Rockland	,0,1,1,0.0
-New York	,Orleans	,2006,23,23,87.21739130434783
+New York	,Orange	,66437,437,441,150.65079365079364
+New York	,Orleans	,2006,24,24,83.58333333333333
 New York	,Oswego	,20348,168,170,119.69411764705882
 New York	,Otsego	,24962,204,204,122.36274509803921
 New York	,Putnam	,36047,382,391,92.1918158567775
+New York	,Queens	,0,1,1,0.0
 New York	,Rensselaer	,21266,148,150,141.77333333333334
-New York	,Rockland	,12929,60,60,215.48333333333332
+New York	,Richmond	,0,1,1,0.0
+New York	,Rockland	,12929,61,61,211.95081967213116
 New York	,Saratoga	,30886,227,227,136.06167400881057
 New York	,Schenectady	,4394,30,34,129.23529411764707
 New York	,Schoharie	,13322,74,74,180.02702702702703
@@ -2412,8 +2313,7 @@ South Carolina	,Allendale	,834,7,8,104.25
 South Carolina	,Anderson	,3894,41,44,88.5
 South Carolina	,Bamberg	,1041,6,7,148.71428571428572
 South Carolina	,Barnwell	,1554,16,19,81.78947368421052
-South Carolina	,Beaufort	,3952,35,42,94.0952380952381
-South Carolina	,Beaufort, Jasper	,100,1,1,100.0
+South Carolina	,Beaufort	,4052,36,43,94.23255813953489
 South Carolina	,Berkeley	,4951,49,66,75.01515151515152
 South Carolina	,Calhoun	,541,8,10,54.1
 South Carolina	,Charleston	,4152,60,78,53.23076923076923
@@ -2433,7 +2333,7 @@ South Carolina	,Greenville	,4261,28,39,109.25641025641026
 South Carolina	,Greenwood	,623,15,16,38.9375
 South Carolina	,Hampton	,1916,15,17,112.70588235294117
 South Carolina	,Horry	,2020,50,54,37.407407407407405
-South Carolina	,Jasper	,1458,14,16,91.125
+South Carolina	,Jasper	,1558,15,17,91.6470588235294
 South Carolina	,Kershaw	,964,9,11,87.63636363636364
 South Carolina	,Lancaster	,187,10,11,17.0
 South Carolina	,Laurens	,295,11,13,22.692307692307693
@@ -2453,99 +2353,72 @@ South Carolina	,Sumter	,4170,23,25,166.8
 South Carolina	,Union	,1245,10,10,124.5
 South Carolina	,Williamsburg	,2819,13,16,176.1875
 South Carolina	,York	,15298,123,139,110.05755395683454
-South Dakota	,Aurora	,1398,3,3,466.0
-South Dakota	,Aurora, Brule, Buffalo, Davison, Douglas, Jerauld	,0,1,1,0.0
-South Dakota	,Aurora, Davison, Douglas, Sanborn	,0,1,1,0.0
-South Dakota	,Beadle	,727,6,6,121.16666666666667
-South Dakota	,Beadle, Hand	,175,1,1,175.0
-South Dakota	,Beadle, Kingsbury	,260,1,1,260.0
+South Dakota	,Aurora	,1398,5,5,279.6
+South Dakota	,Beadle	,1162,8,8,145.25
 South Dakota	,Bennett	,0,1,1,0.0
-South Dakota	,Bon Homme	,2074,6,6,345.6666666666667
-South Dakota	,Bon Homme, Douglas, Hanson, Hutchinson, McCook, Turner, Yankton	,0,1,1,0.0
-South Dakota	,Brookings	,2496,11,11,226.9090909090909
-South Dakota	,Brookings, Deuel	,0,1,1,0.0
-South Dakota	,Brookings, Lake, Moody	,0,1,1,0.0
-South Dakota	,Brown	,3254,21,21,154.95238095238096
-South Dakota	,Brown, Campbell, Day, Edmunds, Faulk, Marshall, McPherson, Potter, Spink, Walworth	,0,1,1,0.0
-South Dakota	,Brown, Day, Marshall	,0,1,1,0.0
-South Dakota	,Brule	,988,3,3,329.3333333333333
-South Dakota	,Buffalo	,130,1,1,130.0
-South Dakota	,Butte	,1679,10,10,167.9
-South Dakota	,Butte, Meade	,345,2,2,172.5
-South Dakota	,Campbell	,679,2,2,339.5
+South Dakota	,Bon Homme	,2074,7,7,296.2857142857143
+South Dakota	,Brookings	,2496,13,13,192.0
+South Dakota	,Brown	,3254,23,23,141.47826086956522
+South Dakota	,Brule	,988,4,4,247.0
+South Dakota	,Buffalo	,130,2,2,65.0
+South Dakota	,Butte	,2024,12,12,168.66666666666666
+South Dakota	,Campbell	,679,3,3,226.33333333333334
 South Dakota	,Charles Mix	,1468,7,7,209.71428571428572
-South Dakota	,Clark	,766,9,9,85.11111111111111
-South Dakota	,Clark, Codington, Day, Hamlin	,578,2,2,289.0
-South Dakota	,Clark, Codington, Deuel, Hamlin	,0,1,1,0.0
-South Dakota	,Clay	,321,2,2,160.5
-South Dakota	,Clay, Turner, Yankton	,420,1,1,420.0
-South Dakota	,Clay, Union	,0,1,1,0.0
-South Dakota	,Codington	,1058,6,6,176.33333333333334
-South Dakota	,Codington, Grant, Roberts	,0,1,1,0.0
+South Dakota	,Clark	,1344,12,12,112.0
+South Dakota	,Clay	,741,4,4,185.25
+South Dakota	,Codington	,1636,10,10,163.6
 South Dakota	,Corson	,936,4,4,234.0
-South Dakota	,Custer	,6965,49,49,142.14285714285714
-South Dakota	,Custer, Fall River	,492,1,1,492.0
-South Dakota	,Davison	,793,3,3,264.3333333333333
-South Dakota	,Davison, Hanson, McCook	,0,1,1,0.0
-South Dakota	,Day	,1289,6,6,214.83333333333334
-South Dakota	,Deuel	,231,2,2,115.5
-South Dakota	,Dewey	,740,4,4,185.0
-South Dakota	,Dewey, Meade, Ziebach	,0,1,1,0.0
-South Dakota	,Douglas	,1595,5,5,319.0
-South Dakota	,Edmunds	,2985,6,6,497.5
-South Dakota	,Fall River	,2759,14,14,197.07142857142858
-South Dakota	,Faulk	,1213,6,6,202.16666666666666
-South Dakota	,Grant	,497,3,3,165.66666666666666
-South Dakota	,Gregory	,1011,4,4,252.75
-South Dakota	,Gregory, Lyman, Mellette, Todd, Tripp	,0,1,1,0.0
+South Dakota	,Custer	,7457,50,50,149.14
+South Dakota	,Davison	,793,6,6,132.16666666666666
+South Dakota	,Day	,1867,10,10,186.7
+South Dakota	,Deuel	,231,4,4,57.75
+South Dakota	,Dewey	,740,5,5,148.0
+South Dakota	,Douglas	,1595,8,8,199.375
+South Dakota	,Edmunds	,2985,7,7,426.42857142857144
+South Dakota	,Fall River	,3251,15,15,216.73333333333332
+South Dakota	,Faulk	,1213,7,7,173.28571428571428
+South Dakota	,Grant	,497,4,4,124.25
+South Dakota	,Gregory	,1011,5,5,202.2
 South Dakota	,Haakon	,899,2,2,449.5
-South Dakota	,Hamlin	,2710,5,5,542.0
-South Dakota	,Hand	,508,4,4,127.0
-South Dakota	,Hand, Hughes, Hyde, Sully	,0,1,1,0.0
-South Dakota	,Hanson	,1062,2,2,531.0
+South Dakota	,Hamlin	,3288,8,8,411.0
+South Dakota	,Hand	,683,6,6,113.83333333333333
+South Dakota	,Hanson	,1062,4,4,265.5
 South Dakota	,Harding	,330,1,1,330.0
-South Dakota	,Hughes	,1042,5,5,208.4
-South Dakota	,Hutchinson	,1267,4,4,316.75
-South Dakota	,Hyde	,850,1,1,850.0
+South Dakota	,Hughes	,1042,6,6,173.66666666666666
+South Dakota	,Hutchinson	,1267,5,5,253.4
+South Dakota	,Hyde	,850,2,2,425.0
 South Dakota	,Jackson	,876,3,3,292.0
-South Dakota	,Jerauld	,1242,2,2,621.0
-South Dakota	,Jones	,488,1,1,488.0
-South Dakota	,Jones, Lyman, Stanley	,0,1,1,0.0
-South Dakota	,Jones, Pennington	,0,1,1,0.0
-South Dakota	,Kingsbury	,1888,7,7,269.7142857142857
-South Dakota	,Lake	,751,6,6,125.16666666666667
+South Dakota	,Jerauld	,1242,3,3,414.0
+South Dakota	,Jones	,488,3,3,162.66666666666666
+South Dakota	,Kingsbury	,2148,8,8,268.5
+South Dakota	,Lake	,751,7,7,107.28571428571429
 South Dakota	,Lawrence	,7381,72,72,102.51388888888889
-South Dakota	,Lincoln	,1173,6,6,195.5
-South Dakota	,Lincoln, McCook, Minnehaha	,0,1,1,0.0
-South Dakota	,Lincoln, Minnehaha	,0,1,1,0.0
-South Dakota	,Lincoln, Turner, Union	,0,1,1,0.0
-South Dakota	,Lyman	,1213,3,3,404.3333333333333
-South Dakota	,Marshall	,1284,8,8,160.5
-South Dakota	,McCook	,1785,5,5,357.0
-South Dakota	,McCook, Turner	,0,1,1,0.0
-South Dakota	,McPherson	,1325,2,2,662.5
-South Dakota	,Meade	,8713,51,51,170.84313725490196
-South Dakota	,Meade, Pennington	,0,1,1,0.0
-South Dakota	,Mellette	,581,1,1,581.0
+South Dakota	,Lincoln	,1173,9,9,130.33333333333334
+South Dakota	,Lyman	,1213,5,5,242.6
+South Dakota	,Marshall	,1284,10,10,128.4
+South Dakota	,McCook	,1785,9,9,198.33333333333334
+South Dakota	,McPherson	,1325,3,3,441.6666666666667
+South Dakota	,Meade	,9058,55,55,164.6909090909091
+South Dakota	,Mellette	,581,2,2,290.5
 South Dakota	,Miner	,948,2,2,474.0
-South Dakota	,Minnehaha	,2729,14,14,194.92857142857142
-South Dakota	,Moody	,1211,5,5,242.2
-South Dakota	,Pennington	,20360,147,147,138.50340136054422
+South Dakota	,Minnehaha	,2729,16,16,170.5625
+South Dakota	,Moody	,1211,6,6,201.83333333333334
+South Dakota	,Pennington	,20360,149,149,136.64429530201343
 South Dakota	,Perkins	,783,3,3,261.0
-South Dakota	,Potter	,492,4,4,123.0
-South Dakota	,Roberts	,1855,11,11,168.63636363636363
-South Dakota	,Sanborn	,1281,5,5,256.2
+South Dakota	,Potter	,492,5,5,98.4
+South Dakota	,Roberts	,1855,12,12,154.58333333333334
+South Dakota	,Sanborn	,1281,6,6,213.5
 South Dakota	,Shannon	,148,1,1,148.0
-South Dakota	,Spink	,1248,10,10,124.8
-South Dakota	,Stanley	,0,2,2,0.0
-South Dakota	,Sully	,740,1,1,740.0
-South Dakota	,Todd	,25,1,1,25.0
-South Dakota	,Tripp	,296,2,2,148.0
-South Dakota	,Turner	,3129,6,6,521.5
-South Dakota	,Union	,2421,7,7,345.85714285714283
-South Dakota	,Walworth	,771,3,3,257.0
-South Dakota	,Yankton	,1384,10,10,138.4
-South Dakota	,Ziebach	,525,1,1,525.0
+South Dakota	,Spink	,1248,11,11,113.45454545454545
+South Dakota	,Stanley	,0,3,3,0.0
+South Dakota	,Sully	,740,2,2,370.0
+South Dakota	,Todd	,25,2,2,12.5
+South Dakota	,Tripp	,296,3,3,98.66666666666667
+South Dakota	,Turner	,3549,10,10,354.9
+South Dakota	,Union	,2421,9,9,269.0
+South Dakota	,Walworth	,771,4,4,192.75
+South Dakota	,Yankton	,1804,12,12,150.33333333333334
+South Dakota	,Ziebach	,525,2,2,262.5
 State	,Counties Served	,0,1,1,0.0
 Tennessee	,Anderson	,350,5,7,50.0
 Tennessee	,Bedford	,429,3,5,85.8
@@ -2682,15 +2555,14 @@ Texas	,Cherokee	,8263,0,28,295.10714285714283
 Texas	,Childress	,1335,0,7,190.71428571428572
 Texas	,Clay	,1921,0,10,192.1
 Texas	,Cochran	,521,0,3,173.66666666666666
-Texas	,Coke	,1685,0,6,280.8333333333333
-Texas	,Coke, Concho, Ector, Howard, Martin, Scurry, Ward	,0,0,1,0.0
+Texas	,Coke	,1685,0,7,240.71428571428572
 Texas	,Coleman	,0,0,3,0.0
 Texas	,Collin	,1882,0,36,52.27777777777778
 Texas	,Collingsworth	,739,0,4,184.75
 Texas	,Colorado	,8436,0,45,187.46666666666667
 Texas	,Comal	,17259,0,84,205.46428571428572
 Texas	,Comanche	,763,0,6,127.16666666666667
-Texas	,Concho	,488,0,5,97.6
+Texas	,Concho	,488,0,6,81.33333333333333
 Texas	,Cooke	,4926,0,24,205.25
 Texas	,Coryell	,4408,0,14,314.85714285714283
 Texas	,Cottle	,739,0,2,369.5
@@ -2699,8 +2571,7 @@ Texas	,Crockett	,115,0,3,38.333333333333336
 Texas	,Crosby	,895,0,7,127.85714285714286
 Texas	,Culberson	,933,0,9,103.66666666666667
 Texas	,Dallam	,1416,0,7,202.28571428571428
-Texas	,Dallas	,1855,0,39,47.56410256410256
-Texas	,Dallas, Johnson	,150,0,1,150.0
+Texas	,Dallas	,2005,0,40,50.125
 Texas	,Dawson	,824,0,4,206.0
 Texas	,DeWitt	,1960,0,13,150.76923076923077
 Texas	,Deaf Smith	,665,0,6,110.83333333333333
@@ -2711,7 +2582,7 @@ Texas	,Dimmit	,2802,0,15,186.8
 Texas	,Donley	,2199,0,8,274.875
 Texas	,Duval	,1043,0,9,115.88888888888889
 Texas	,Eastland	,3175,0,14,226.78571428571428
-Texas	,Ector	,2610,0,30,87.0
+Texas	,Ector	,2610,0,31,84.19354838709677
 Texas	,Edwards	,249,0,2,124.5
 Texas	,El Paso	,6102,0,40,152.55
 Texas	,Ellis	,5340,0,33,161.8181818181818
@@ -2757,7 +2628,7 @@ Texas	,Hockley	,1932,0,12,161.0
 Texas	,Hood	,17116,0,64,267.4375
 Texas	,Hopkins	,4049,0,14,289.2142857142857
 Texas	,Houston	,1739,0,10,173.9
-Texas	,Howard	,1228,0,7,175.42857142857142
+Texas	,Howard	,1228,0,8,153.5
 Texas	,Hudspeth	,1442,0,7,206.0
 Texas	,Hunt	,4425,0,31,142.74193548387098
 Texas	,Hutchinson	,1213,0,11,110.27272727272727
@@ -2769,7 +2640,7 @@ Texas	,Jeff Davis	,1041,0,10,104.1
 Texas	,Jefferson	,3076,0,22,139.8181818181818
 Texas	,Jim Hogg	,0,0,1,0.0
 Texas	,Jim Wells	,982,0,12,81.83333333333333
-Texas	,Johnson	,11342,0,65,174.4923076923077
+Texas	,Johnson	,11492,0,66,174.12121212121212
 Texas	,Jones	,621,0,6,103.5
 Texas	,Karnes	,1211,0,8,151.375
 Texas	,Kaufman	,1867,0,27,69.14814814814815
@@ -2799,7 +2670,7 @@ Texas	,Lubbock	,13717,0,71,193.19718309859155
 Texas	,Lynn	,1745,0,6,290.8333333333333
 Texas	,Madison	,329,0,7,47.0
 Texas	,Marion	,3702,0,16,231.375
-Texas	,Martin	,721,0,5,144.2
+Texas	,Martin	,721,0,6,120.16666666666667
 Texas	,Mason	,0,0,1,0.0
 Texas	,Matagorda	,7107,0,45,157.93333333333334
 Texas	,Maverick	,0,0,2,0.0
@@ -2851,7 +2722,7 @@ Texas	,San Jacinto	,8011,0,37,216.51351351351352
 Texas	,San Patricio	,3831,0,20,191.55
 Texas	,San Saba	,1637,0,9,181.88888888888889
 Texas	,Schleicher	,0,0,1,0.0
-Texas	,Scurry	,1783,0,8,222.875
+Texas	,Scurry	,1783,0,9,198.11111111111111
 Texas	,Shackelford	,270,0,3,90.0
 Texas	,Shelby	,5852,0,21,278.6666666666667
 Texas	,Sherman	,480,0,3,160.0
@@ -2881,7 +2752,7 @@ Texas	,Van Zandt	,2134,0,23,92.78260869565217
 Texas	,Victoria	,9044,0,41,220.58536585365854
 Texas	,Walker	,4593,0,33,139.1818181818182
 Texas	,Waller	,8861,0,56,158.23214285714286
-Texas	,Ward	,2318,0,10,231.8
+Texas	,Ward	,2318,0,11,210.72727272727272
 Texas	,Washington	,3303,0,19,173.8421052631579
 Texas	,Webb	,2567,0,14,183.35714285714286
 Texas	,Wharton	,5582,0,36,155.05555555555554
@@ -3202,8 +3073,7 @@ Wisconsin	,Waushara	,10100,209,209,48.32535885167464
 Wisconsin	,Winnebago	,7342,145,145,50.63448275862069
 Wisconsin	,Wood	,15381,147,147,104.63265306122449
 Wyoming	,Albany	,5386,25,25,215.44
-Wyoming	,Big Horn	,4367,28,28,155.96428571428572
-Wyoming	,Big Horn, Washakie	,154,1,1,154.0
+Wyoming	,Big Horn	,4521,29,29,155.89655172413794
 Wyoming	,Campbell	,13062,63,66,197.9090909090909
 Wyoming	,Carbon	,5969,24,24,248.70833333333334
 Wyoming	,Converse	,3509,19,20,175.45
@@ -3213,17 +3083,15 @@ Wyoming	,Goshen	,2937,17,17,172.76470588235293
 Wyoming	,Hot Springs	,1693,7,8,211.625
 Wyoming	,Johnson	,1373,13,15,91.53333333333333
 Wyoming	,Laramie	,10025,50,52,192.78846153846155
-Wyoming	,Lincoln	,7296,36,40,182.4
-Wyoming	,Lincoln, Sweetwater	,25,1,1,25.0
+Wyoming	,Lincoln	,7321,37,41,178.5609756097561
 Wyoming	,Natrona	,7331,48,50,146.62
 Wyoming	,Niobrara	,622,5,5,124.4
-Wyoming	,Park	,5107,49,50,102.14
-Wyoming	,Park, Teton	,0,1,1,0.0
+Wyoming	,Park	,5107,50,51,100.13725490196079
 Wyoming	,Platte	,4696,32,32,146.75
 Wyoming	,Sheridan	,5146,20,22,233.9090909090909
 Wyoming	,Sublette	,4440,25,29,153.10344827586206
-Wyoming	,Sweetwater	,10994,43,45,244.3111111111111
-Wyoming	,Teton	,15325,106,116,132.11206896551724
+Wyoming	,Sweetwater	,11019,44,46,239.54347826086956
+Wyoming	,Teton	,15325,107,117,130.98290598290598
 Wyoming	,Uinta	,1208,12,13,92.92307692307692
-Wyoming	,Washakie	,1806,7,9,200.66666666666666
+Wyoming	,Washakie	,1960,8,10,196.0
 Wyoming	,Weston	,1783,12,12,148.58333333333334
