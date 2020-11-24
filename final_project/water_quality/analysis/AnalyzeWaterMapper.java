@@ -32,27 +32,49 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             
             // sysPerCapita(population, waterSystems);
 
-            //See AnalyzeWritable class
-            AnalyzeWritable valueMap = new AnalyzeWritable(
-                new IntWritable(population), 
-                new IntWritable(citiesServed),
-                new IntWritable(waterSystems),
-                new DoubleWritable(sysPerCapita)
-                );
 
             //Use state, county as key
             String state = lineArr[5].replace("\"", "");
             String county = lineArr[4];
-
-            //For Virginia counties where cities are individual counties
-            if(lineArr[3].length() > 0 && lineArr[4].length() == 0)
+            
+            //Check if multiple counties are listed
+            String[] counties = county.split(", ");
+            if(counties.length > 0)
             {
-                county = lineArr[3];
+                for(int i = 0; i < counties.length; i++)
+                {
+                    String currCounty = counties[i];
+
+                    AnalyzeWritable valueMap = new AnalyzeWritable(
+                        new IntWritable(population), 
+                        new IntWritable(citiesServed),
+                        new IntWritable(waterSystems),
+                        new DoubleWritable(sysPerCapita)
+                    );
+
+                    Text keyMap = new Text(state + "," + currCounty);
+                    context.write(keyMap, valueMap);
+                }
             }
+            else
+            {
+                AnalyzeWritable valueMap = new AnalyzeWritable(
+                    new IntWritable(population), 
+                    new IntWritable(citiesServed),
+                    new IntWritable(waterSystems),
+                    new DoubleWritable(sysPerCapita)
+                );
 
-            Text keyMap = new Text(state + "," + county);
+                //For Virginia counties where cities are individual counties
+                if(lineArr[3].length() > 0 && lineArr[4].length() == 0)
+                {
+                    county = lineArr[3];
+                }
 
-            context.write(keyMap, valueMap);
+                Text keyMap = new Text(state + "," + county);
+
+                context.write(keyMap, valueMap);
+            }
 
         }
     }
