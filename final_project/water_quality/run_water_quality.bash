@@ -1,5 +1,11 @@
-bash ./clean/run_water_clean.bash
-bash ./analysis/run_water_analyze.bash
+cd clean
+
+bash run_water_clean.bash
+
+cd ..
+cd analysis
+
+bash run_water_analyze.bash
 
 # Take water analysis and put it into a seperate folder on hdfs
 
