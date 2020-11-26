@@ -1,4 +1,4 @@
-hdfs dfs -rm -r bigdata/final_project/output_analysis
+hdfs dfs -rm -r /user/ma4759/infrastructure/water_quality/analysis_output
 
 #Compiling 
 javac -classpath `yarn classpath`:. -sourcepath . -d . AnalyzeWritable.java
@@ -9,10 +9,12 @@ javac -classpath `yarn classpath`:. -d . AnalyzeWater.java
 jar -cvf AnalyzeWater.jar AnalyzeWaterMapper.class AnalyzeWaterReducer.class AnalyzeWater.class AnalyzeWritable.class
 
 #Run Jar from input file from cleaned
-hadoop jar AnalyzeWater.jar AnalyzeWater bigdata/final_project/output/part-r-00000 bigdata/final_project/output_analysis
+hadoop jar AnalyzeWater.jar AnalyzeWater /user/ma4759/infrastructure/water_quality/clean_output/part-r-00000 /user/ma4759/infrastructure/water_quality/analysis_output
+
+location=$(pwd)
 
 #Move file from hdfs to local
-hdfs dfs -copyToLocal bigdata/final_project/output_analysis/part-r-00000 /home/jc8017/Repository/Bigdata/final_project/water_quality/analysis
+hdfs dfs -copyToLocal /user/ma4759/infrastructure/water_quality/analysis_output location
 
 #Rename copied filed
 mv ./part-r-00000 ./analyze_data

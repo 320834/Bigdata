@@ -3,6 +3,8 @@ Here are steps I've used to compile and run on Dumbo. Use the Forum if you encou
 // Replace 'yourNetID' below with your own NYU Net ID.
 
 ssh -Y jc8017@dumbo.es.its.nyu.edu
+
+/user/ma4759/infrastructure
 // Write your driver source code using a text editor like vi (or emacs or other text editor):
 
 vi MaxTemperature.java
