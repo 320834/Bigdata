@@ -24,4 +24,7 @@ hdfs dfs -put two.txt two
 - use jc8017;
 - create external table one(state string, county string, pop int) row format delimited fields terminated by ',' location '/user/jc8017/one/';
 - create external table two(state string, county string, status string) row format delimited fields terminated by ',' location '/user/jc8017/two/';
-- create table combine select one.state, one.county, one.pop, two.status from one left outer join two on (one.county = two.county and one.state = two.state);
+
+# Do combine twice
+
+- create table combine select one.state, one.county, one.pop, two.status from one left outer join two on (SUBSTR(one.county,0,6) = SUBSTR(two.county,0,6) and one.state = two.state);
