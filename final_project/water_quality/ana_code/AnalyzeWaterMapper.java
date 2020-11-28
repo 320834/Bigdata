@@ -37,10 +37,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             String state = lineArr[5].replace("\"", "");
             String county = lineArr[4];
 
-            county = normalizeCounty(county);
-
             state = getRidTabs(state);
-            county = getRidTabs(county);
             
             //Check if multiple counties are listed
             String[] counties = county.split(", ");
@@ -50,6 +47,9 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
                 {
                     String currCounty = counties[i];
 
+                    currCounty = normalizeCounty(currCounty);
+                    currCounty = getRidTabs(currCounty);
+
                     AnalyzeWritable valueMap = new AnalyzeWritable(
                         new IntWritable(population), 
                         new IntWritable(citiesServed),
@@ -58,6 +58,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
                     );
 
                     Text keyMap = new Text(state + "," + currCounty);
+                    
                     context.write(keyMap, valueMap);
                 }
             }
@@ -75,6 +76,9 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
                 {
                     county = lineArr[3];
                 }
+
+                county = normalizeCounty(county);
+                county = getRidTabs(county);
 
                 Text keyMap = new Text(state + "," + county);
 

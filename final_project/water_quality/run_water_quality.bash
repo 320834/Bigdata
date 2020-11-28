@@ -20,4 +20,4 @@ bash run_water_profile.bash
 cd ..
 
 # Take water analysis final and put it into combine input
-mv ./ana_code/analyze_data ../combine/final_input/waterdata.csv
+cp ./ana_code/analyze_data ../combine/final_input/waterdata.csv
