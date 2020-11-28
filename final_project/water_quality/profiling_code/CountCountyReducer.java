@@ -16,6 +16,6 @@ extends Reducer<Text, IntWritable, Text, IntWritable>
             lines += value.get();
         }
         
-        context.write("Number Of Lines: ", new IntWritable(lines));
+        context.write(new Text("Number Of Lines: "), new IntWritable(lines));
     }
 }

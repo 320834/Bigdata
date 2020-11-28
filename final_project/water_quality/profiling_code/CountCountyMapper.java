@@ -11,7 +11,7 @@ public class CountCountyMapper extends Mapper<LongWritable, Text, Text, IntWrita
     {    
         String line = value.toString();
 
-        context.write(new Text("line"), new IntWritable(1))
+        context.write(new Text("line"), new IntWritable(1));
 
 
     }
