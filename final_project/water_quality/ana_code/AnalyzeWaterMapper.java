@@ -118,7 +118,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
         return 0.0;
     }
 
-    public getRidTabs(String value)
+    public String getRidTabs(String value)
     {
         if(value.contains("\t"))
         {
@@ -128,7 +128,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
         return value;
     }
 
-    public normalizeCounty(String county)
+    public String normalizeCounty(String county)
     {
         if(county.contains("Parish"))
         {
