@@ -1,0 +1,11 @@
+hdfs dfs -rm -r /user/ma4759/infrastructure/water_quality/profiling_output
+
+#Compiling 
+javac -classpath `yarn classpath`:. -sourcepath . -d . CountCountyMapper.java
+javac -classpath `yarn classpath`:. -sourcepath . -d . CountCountyReducer.java
+javac -classpath `yarn classpath`:. -d . CountCounty.java
+
+jar -cvf CountCounty.jar CountCountyMapper.class CountCountyReducer.class CountCounty.class
+
+#Run Jar from input file from cleaned
+hadoop jar CountCounty.jar CountCounty /user/ma4759/infrastructure/water_quality/analysis_output/part-r-00000 /user/ma4759/infrastructure/water_quality/profiling_output

@@ -36,6 +36,11 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             //Use state, county as key
             String state = lineArr[5].replace("\"", "");
             String county = lineArr[4];
+
+            state = getRidTabs(state);
+            county = getRidTabs(county);
+
+            county = normalizeCounty(county);
             
             //Check if multiple counties are listed
             String[] counties = county.split(", ");
@@ -111,5 +116,25 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
         }
         
         return 0.0;
+    }
+
+    public getRidTabs(String value)
+    {
+        if(value.contains("\t"))
+        {
+            return value.split("\t")[0];
+        }
+
+        return value;
+    }
+
+    public normalizeCounty(String county)
+    {
+        if(county.contains("Parish"))
+        {
+            return county.split(" Parish")[0];
+        }
+
+        return county;
     }
 } 

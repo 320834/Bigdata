@@ -5,23 +5,23 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-public class CountRecs {
+public class CountCounty {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.err.println("Usage: Recs <input path> <output path>");
+            System.err.println("Usage: CountCounty <input path> <output path>");
             System.exit(-1);
         }
 
         Job job = new Job();
         job.setNumReduceTasks(1);
-        job.setJarByClass(CountRecs.class);
-        job.setJobName("Recs");
+        job.setJarByClass(CountCounty.class);
+        job.setJobName("CountCounty");
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-        job.setMapperClass(CountRecsMapper.class);
-        job.setReducerClass(CountRecsReducer.class);
+        job.setMapperClass(CountCountyMapper.class);
+        job.setReducerClass(CountCountyReducer.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);

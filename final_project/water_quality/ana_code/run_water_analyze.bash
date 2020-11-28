@@ -11,10 +11,8 @@ jar -cvf AnalyzeWater.jar AnalyzeWaterMapper.class AnalyzeWaterReducer.class Ana
 #Run Jar from input file from cleaned
 hadoop jar AnalyzeWater.jar AnalyzeWater /user/ma4759/infrastructure/water_quality/clean_output/part-r-00000 /user/ma4759/infrastructure/water_quality/analysis_output
 
-location=$(pwd)
-
 #Move file from hdfs to local
-hdfs dfs -copyToLocal /user/ma4759/infrastructure/water_quality/analysis_output location
+hdfs dfs -copyToLocal /user/ma4759/infrastructure/water_quality/analysis_output ./
 
 #Rename copied filed
 mv ./part-r-00000 ./analyze_data
