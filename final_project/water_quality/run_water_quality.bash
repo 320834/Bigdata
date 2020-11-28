@@ -4,13 +4,13 @@ bash run_water_injest.bash
 cd ..
 
 # Do clean for water quality
-cd clean
+cd etl_code
 bash run_water_clean.bash
 cd ..
 
 # Do analysis for water quality
 
-cd analysis
+cd ana_code
 bash run_water_analyze.bash
 cd ..
 
@@ -20,4 +20,4 @@ bash run_water_profile.bash
 cd ..
 
 # Take water analysis final and put it into combine input
-mv ./ana_code/analyze_data ../combine/final_input
+mv ./ana_code/analyze_data ../combine/final_input/waterdata.csv
