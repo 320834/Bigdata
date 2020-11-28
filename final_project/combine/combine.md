@@ -4,13 +4,16 @@ Make sure in the directory final_input, taxdata.csv, transportationdata.csv, and
 
 1. Put files on hdfs 
 
+- Delete directories
+hdfs dfs -rm -r output_final
+hdfs dfs -rm -r tax_final
+hdfs dfs -rm -r transport_final
+hdfs dfs -rm -r water_final
+
 - Make a directory for each input file
 hdfs dfs -mkdir tax_final
 hdfs dfs -mkdir transport_final
 hdfs dfs -mkdir water_final
-
-- Create a directory for output
-hdfs dfs -mkdir output_final 
 
 cd final_input
 
@@ -49,7 +52,15 @@ create table final as select taxtransport.*, water.populationserved, water.water
 
 - Get hive table 
 
-INSERT OVERWRITE LOCAL DIRECTORY '/' ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY "\n" SELECT * FROM final;
+INSERT OVERWRITE LOCAL DIRECTORY '/output_final' ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY "\n" SELECT * FROM final;
+
+- Go back to hdfs 
+cd final_output
+hdfs dfs -copyToLocal ../hive/warehouse/jc8017.db/final/000000-0 ../
+
+hdfs dfs -mv 000000-0 
+
+
 
 # Misc
 
