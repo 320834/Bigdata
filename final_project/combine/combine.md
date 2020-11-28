@@ -52,13 +52,14 @@ create table final as select taxtransport.*, water.populationserved, water.water
 
 - Get hive table 
 
-INSERT OVERWRITE LOCAL DIRECTORY '/output_final' ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY "\n" SELECT * FROM final;
+INSERT OVERWRITE DIRECTORY '/user/(net id)/output_final' ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY "\n" SELECT * FROM final;
 
-- Go back to hdfs 
+hdfs dfs -copyToLocal /user/(net id)/output_final ../final_output
+
+cd ..
 cd final_output
-hdfs dfs -copyToLocal ../hive/warehouse/jc8017.db/final/000000-0 ../
 
-hdfs dfs -mv 000000-0 
+mv 000000-0 final_output.csv
 
 
 
