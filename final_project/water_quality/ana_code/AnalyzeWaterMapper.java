@@ -120,12 +120,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
 
     public String getRidTabs(String value)
     {
-        if(value.contains("\t"))
-        {
-            return value.split("\t")[0];
-        }
-
-        return value;
+        return value.replace("\t", "");
     }
 
     public String normalizeCounty(String county)
