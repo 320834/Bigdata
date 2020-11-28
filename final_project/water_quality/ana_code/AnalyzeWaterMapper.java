@@ -37,10 +37,10 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             String state = lineArr[5].replace("\"", "");
             String county = lineArr[4];
 
+            county = normalizeCounty(county);
+
             state = getRidTabs(state);
             county = getRidTabs(county);
-
-            county = normalizeCounty(county);
             
             //Check if multiple counties are listed
             String[] counties = county.split(", ");
