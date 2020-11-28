@@ -1,5 +1,3 @@
-hdfs dfs -put ./raw_data/inputdata.csv /user/ma4759/infrastructure/water_quality
-
 hdfs dfs -rm -r /user/ma4759/infrastructure/water_quality/clean_output
 
 javac -classpath `yarn classpath` -d . CleanMapper.java

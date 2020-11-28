@@ -1,0 +1,1 @@
+hdfs dfs -put ./raw_data/inputdata.csv /user/ma4759/infrastructure/water_quality
