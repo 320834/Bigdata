@@ -56,16 +56,14 @@ create table taxtransport as select transport.*, tax.taxRespondents, tax.stateLo
 
 create table final as select taxtransport.*, water.populationserved, water.watersystems from taxtransport left outer join water on (taxtransport.state = water.state and taxtransport.county = water.county);
 
-- Get hive table 
+5. Export hive table to hdfs to local
+
+***NOTE***: The first line has to run in beeline. The rest is done locally.
 
 INSERT OVERWRITE DIRECTORY '/user/(net id)/output_final' ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY "\n" SELECT * FROM final;
 
-hdfs dfs -copyToLocal /user/(net id)/output_final ../final_output
-
-cd ..
-cd final_output
-
-mv 000000-0 final_output.csv
+hdfs dfs -copyToLocal output_final/000000_0 ./output
+mv ./output/000000_0 ./output/final_output
 
 
 
@@ -84,20 +82,12 @@ Okay columns
 1. 
 @Mert Alev
  
-- Number of residents
-- Pct of medium to fair 
-- Pct of poor 
-- Route Miles Of Freight Data
-- Roads Acceptable
-- Land Area
+- Number of residents, Pct of medium to fair bridges, Pct of poor bridges, Route Miles Of Freight Data, Roads Acceptable, Land Area
 
 2. 
 @Anand Tyagi
 
-- Number Of Respondants
-- State and Local Income Tax
-- Real Estate Tax
+- Number Of Respondents, State and Local Income Tax, Real Estate Tax
 
 3. @Justin
-- Population Served
-- Water Systems
+- Population Served, Water Systems
