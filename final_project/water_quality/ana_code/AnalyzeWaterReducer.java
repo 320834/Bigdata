@@ -24,9 +24,7 @@ extends Reducer<Text, AnalyzeWritable, Text, Text>
 
         systemsPerPop = (double)population/waterSystems;
         String countyKey = key.toString();
-
-        countyKey = countyKey.replace("\t", "");
         
-        context.write(new Text(countyKey), new Text("," + population + "," + waterSystems));
+        context.write(new Text(countyKey + "," + population + "," + waterSystems), new Text(""));
     }
 }
