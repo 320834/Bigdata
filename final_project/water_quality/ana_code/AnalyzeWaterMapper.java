@@ -134,6 +134,31 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
             return county.split(" Parish")[0];
         }
 
+        if(county.contains("and Borough"))
+        {
+            return county.split(" and Borough")[0];
+        }
+
+        if(county.contains("Census Area"))
+        {
+            return county.split(" Census Area")[0];
+        }
+
+        if(county.contains("Borough"))
+        {
+            return county.split(" Borough")[0];
+        }
+
+        if(county.contains("Municipality"))
+        {
+            return county.split(" Municipality")[0];
+        }
+
+        if(county.contains("City and Borough"))
+        {
+            return county.split(" City and Borough")[0];
+        }
+
         return county;
     }
 } 

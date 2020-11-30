@@ -38,7 +38,7 @@ create external table tax(hash string, state string, county string, numberOfRetu
 
 - Create Water Quality table
 
-- create external table water(hash string, state string, county string, populationServed int, waterSystems int, citiesServed int, waterSystemsPerCapita double) row format delimited fields terminated by ',' location '/user/(your net id)/water_final';
+- create external table water(hash string, state string, county string, populationServed int, waterSystems int) row format delimited fields terminated by ',' location '/user/(your net id)/water_final';
 
 4. Combine Tables
 
@@ -48,7 +48,7 @@ create table taxtransport as select transport.*, tax.numberofreturns, tax.adjust
 
 - Combine taxtransport and water tables to create final
 
-create table final as select taxtransport.*, water.populationserved, water.watersystems, water.citiesserved, water.watersystemspercapita from taxtransport left outer join water on (taxtransport.hash = water.hash);
+create table final as select taxtransport.*, water.populationserved, water.watersystems from taxtransport left outer join water on (taxtransport.hash = water.hash);
 
 - Get hive table 
 
