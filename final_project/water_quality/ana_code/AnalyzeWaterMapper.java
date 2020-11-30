@@ -35,7 +35,7 @@ public class AnalyzeWaterMapper extends Mapper<LongWritable, Text, Text, Analyze
 
             //Use state, county as key
             String state = lineArr[5].replace("\"", "");
-            String county = lineArr[4];
+            String county = lineArr[4].replace("\t", "");
 
             state = getRidTabs(state);
             
