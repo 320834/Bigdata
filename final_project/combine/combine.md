@@ -4,22 +4,24 @@ Make sure in the directory input, tax.csv, transportation.csv, and water_quality
 
 1. Put files on hdfs 
 
+***Note***: In /input, there is a bash file that can do input files for hdfs. From step 2, it has to be manually placed in.
+
 - Delete directories
 hdfs dfs -rm -r output_final
-hdfs dfs -rm -r tax_final
-hdfs dfs -rm -r transport_final
-hdfs dfs -rm -r water_final
+hdfs dfs -rm -r tax
+hdfs dfs -rm -r transport
+hdfs dfs -rm -r water
 
 - Make a directory for each input file
-hdfs dfs -mkdir tax_final
-hdfs dfs -mkdir transport_final
-hdfs dfs -mkdir water_final
+hdfs dfs -mkdir tax
+hdfs dfs -mkdir transport
+hdfs dfs -mkdir water
 
 cd input
 
-hdfs dfs -put taxdata.csv tax
-hdfs dfs -put transportationdata.csv transport
-hdfs dfs -put waterdata.csv water_quality
+hdfs dfs -put tax tax
+hdfs dfs -put transportation transport
+hdfs dfs -put water_quality water
 
 2. Go onto hive
 - beeline
@@ -28,27 +30,31 @@ hdfs dfs -put waterdata.csv water_quality
 
 3. Create tables
 
+**IMPORTANT**: Remember to substitute your net id when creating the table
+
 - Create transport table
 
-create external table transport(hash string, state string, county string, numberOfBridges int, numberOfResidents int, pctOfMediumToFairConditionBridges double, pctOfPoorConditionBridges double, primaryAndCommercialAirports int, routeMilesOfFreightRailroad double, routeMilesOfPassengerRailroadAndRailTransit double, roadsAcceptable double) row format delimited fields terminated by ',' location '/user/(your net id)/transport_final';
+create external table transport(state string, county string, bridges int, residents int, pctMediumToFairBridges double, pctPoorBridges double, milesFreightRailroad double, roadsAcceptable double, countyArea double) row format delimited fields terminated by ',' location '/user/(your net id)/transport';
 
 - Create Tax table
 
-create external table tax(state string, county string, numberOfReturns int, adjustGrossIncome int, totalIncomeAmount int, salariesAndWagesAmount int, stateAndLocalIncomeTaxAmount int, realEstateTaxes int, totalTaxesPaid int, residentialEnergyTaxCreditAmount int) row format delimited fields terminated by ',' location '/user/(your net id)/tax_final';
+create external table tax(state string, county string,taxRespondents double,stateLocalIncomeTax double, realEstateTax double) row format delimited fields terminated by ',' location '/user/(your net id)/tax';
 
 - Create Water Quality table
 
-- create external table water(state string, county string, populationServed int, waterSystems int) row format delimited fields terminated by ',' location '/user/(your net id)/water_final';
+- create external table water(state string, county string, populationServed int, waterSystems int) row format delimited fields terminated by ',' location '/user/(your net id)/water';
+
+At this point there should be three tables
 
 4. Combine Tables
 
 - Combine tax and transport tables to create taxtransport
 
-create table taxtransport as select transport.*, tax.numberofreturns, tax.adjustgrossincome, tax.totalincomeamount, tax.salariesandwagesamount, tax.stateandlocalincometaxamount, tax.realestatetaxes, tax.totaltaxespaid, tax.residentialenergytaxcreditamount from transport left outer join tax on (transport.hash = tax.hash);
+create table taxtransport as select transport.*, tax.taxRespondents, tax.stateLocalIncomeTax, tax.realEstateTax from transport left outer join tax on (transport.state = tax.state and transport.county = tax.county);
 
 - Combine taxtransport and water tables to create final
 
-create table final as select taxtransport.*, water.populationserved, water.watersystems from taxtransport left outer join water on (taxtransport.hash = water.hash);
+create table final as select taxtransport.*, water.populationserved, water.watersystems from taxtransport left outer join water on (taxtransport.state = water.state and taxtransport.county = water.county);
 
 - Get hive table 
 
@@ -88,6 +94,7 @@ Okay columns
 2. 
 @Anand Tyagi
 
+- Number Of Respondants
 - State and Local Income Tax
 - Real Estate Tax
 
