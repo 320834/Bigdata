@@ -17,9 +17,9 @@ hdfs dfs -mkdir water_final
 
 cd final_input
 
-hdfs dfs -put taxdata.csv tax_final
-hdfs dfs -put transportationdata.csv transport_final
-hdfs dfs -put waterdata.csv water_final
+hdfs dfs -put taxdata.csv tax
+hdfs dfs -put transportationdata.csv transport
+hdfs dfs -put waterdata.csv water_quality
 
 2. Go onto hive
 - beeline
