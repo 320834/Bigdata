@@ -61,6 +61,8 @@ create table final as select taxtransport.*, water.populationserved, water.water
 create table final_analytic 
 as 
 select
+state,
+county,
 residents,
 pctmediumtofairbridges/pctpoorbridges as ratiofairtopoor,
 milesfreightrailroad/countyarea as freightpersqmile,
