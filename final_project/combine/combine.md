@@ -73,7 +73,7 @@ from final;
 
 6. Export hive table to hdfs to local
 
-***NOTE***: The first line has to run in beeline. The rest is done locally.
+***NOTE***: The first line has to run in beeline. The rest is done locally in the combine directory
 
 INSERT OVERWRITE DIRECTORY '/user/jc8017/output_final' 
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
