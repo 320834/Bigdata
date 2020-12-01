@@ -56,11 +56,27 @@ create table taxtransport as select transport.*, tax.taxRespondents, tax.stateLo
 
 create table final as select taxtransport.*, water.populationserved, water.watersystems from taxtransport left outer join water on (taxtransport.state = water.state and taxtransport.county = water.county);
 
-5. Export hive table to hdfs to local
+5. Do analytics on combined
+
+create table final_analytic 
+as 
+select
+residents,
+pctmediumtofairbridges/pctpoorbridges as ratiofairtopoor,
+milesfreightrailroad/countyarea as freightpersqmile,
+roadsacceptable,
+populationserved/watersystems as watersyspercapita,
+realestatetax/countyarea as realestatetaxpersqmile
+from final;
+
+6. Export hive table to hdfs to local
 
 ***NOTE***: The first line has to run in beeline. The rest is done locally.
 
-INSERT OVERWRITE DIRECTORY '/user/(net id)/output_final' ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY "\n" SELECT * FROM final;
+INSERT OVERWRITE DIRECTORY '/user/jc8017/output_final' 
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY "\n" 
+SELECT * FROM final_analytic;
 
 hdfs dfs -copyToLocal output_final/000000_0 ./output
 mv ./output/000000_0 ./output/final_output
