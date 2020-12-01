@@ -25,7 +25,7 @@ hdfs dfs -put water_quality water
 
 2. Go onto hive
 - beeline
-- !connect jdbc:hive2://babar.es.its.nyu.edu:10000/;
+- !connect jdbc:hive2://babar.es.its.nyu.edu:10000/
 - use (Your Net ID);
 
 3. Create tables
