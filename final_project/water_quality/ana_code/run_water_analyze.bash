@@ -18,4 +18,4 @@ hdfs dfs -copyToLocal /user/ma4759/infrastructure/water_quality/analysis_output/
 mv ./part-r-00000 ./water_quality
 
 #Move to combine
-cp ./water_quality ../../combine/input/
+cp ./water_quality ../../hive/input/

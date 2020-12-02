@@ -2,22 +2,27 @@
 
 1. Export hive tables to hdfs
 
-***NOTE***: The few commands has to run in beeline. The rest is done locally in the combine directory
+***NOTE***: The few commands has to run in beeline. The rest is done locally in the combine directory. Remember to change net id to your net id.
 
-INSERT OVERWRITE DIRECTORY '/user/jc8017/output_final' 
+INSERT OVERWRITE DIRECTORY '/user/{net id}/output_final' 
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY "\n" 
 SELECT * FROM analytic;
 
-INSERT OVERWRITE DIRECTORY '/user/jc8017/output_final_mean'
+INSERT OVERWRITE DIRECTORY '/user/{net id}/output_final_mean'
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 LINES TERMINATED BY "\n"
 SELECT * FROM analytic_mean;
 
-INSERT OVERWRITE DIRECTORY '/user/jc8017/output_final_normalized'
+INSERT OVERWRITE DIRECTORY '/user/{net id}/output_final_normalized'
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 LINES TERMINATED BY "\n"
 SELECT * FROM analytic_normalized;
+
+INSERT OVERWRITE DIRECTORY '/user/{net id}/output_final_std'
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+LINES TERMINATED BY "\n"
+SELECT * FROM analytic_std;
 
 **Remember to exit beeline**
 
@@ -32,13 +37,16 @@ mv ./output/000000_0 ./output/analyze_mean
 hdfs dfs -copyToLocal output_final_normalized/000000_0 ./output
 mv ./output/000000_0 ./output/analyze_normalized
 
+hdfs dfs -copyToLocal output_final_std/000000_0 ./output
+mv ./output/000000_0 ./output/analyze_std
+
 3. Verify files
 
 There should be three files in output/
 1. analyze
 2. analyze_mean
 3. analyze_normalized
-
+4. analyze_std
 
 # Misc
 

@@ -77,4 +77,28 @@ real_estate_tax_per_sq_mile/avg(real_estate_tax_per_sq_mile) over () estate_tax_
 population_density/avg(population_density) over () population_density_normalized
 FROM analytic;
 
-4. Go to export(./export.md) for further instructions
+4. Create table for standard deviation of each column
+
+CREATE TABLE analytic_std
+as
+select 
+std(bridges) as bridges_std,
+std(residents) as resident_std, 
+std(pct_medium_bridges) as pct_medium_bridges_std,
+std(pct_poor_bridges) as pct_poor_bridges_std,
+std(miles_freight_railroad) as miles_freight_railroad_std,
+std(roads_acceptable) as roads_acceptable_std,
+std(county_area) as county_area_std,
+std(tax_respondants) as tax_respondants_std,
+std(state_local_income_tax) as state_local_income_tax_std,
+std(real_estate_tax) as real_estate_tax_std,
+std(population_served) as population_served_std,
+std(water_systems) as water_systems_std,
+std(ratio_fair_to_poor) as ratio_fair_to_poor_std, 
+std(freight_per_sq_mile) as freight_per_sq_mile_std, 
+std(water_sys_per_capita) as water_sys_per_cap_std, 
+std(real_estate_tax_per_sq_mile) as estate_tax_per_sq_std,
+std(population_density) as population_density_std
+FROM analytic;
+
+5. Go to export(./export.md) for further instructions
