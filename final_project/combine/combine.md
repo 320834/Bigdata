@@ -4,10 +4,9 @@ Make sure in the directory input, tax.csv, transportation.csv, and water_quality
 
 1. Put files on hdfs 
 
-***Note***: In /input, there is a bash file that can do input files for hdfs. From step 2, it has to be manually placed in.
+***Note***: In /input, there is a bash file that can do input files for hdfs. From step 2, it has to be manually placed in. Do this in your own local directory. Doesn't matter where this is placed
 
-- Delete directories
-hdfs dfs -rm -r output_final
+- Delete directories (if applicable)
 hdfs dfs -rm -r tax
 hdfs dfs -rm -r transport
 hdfs dfs -rm -r water
@@ -24,9 +23,10 @@ hdfs dfs -put transportation transport
 hdfs dfs -put water_quality water
 
 2. Go onto hive
-- beeline
-- !connect jdbc:hive2://babar.es.its.nyu.edu:10000/
-- use (Your Net ID);
+
+beeline
+!connect jdbc:hive2://babar.es.its.nyu.edu:10000/
+use (Your Net ID);
 
 3. Create tables
 
@@ -42,9 +42,9 @@ create external table tax(state string, county string,taxRespondents double,stat
 
 - Create Water Quality table
 
-- create external table water(state string, county string, populationServed int, waterSystems int) row format delimited fields terminated by ',' location '/user/(your net id)/water';
+create external table water(state string, county string, populationServed int, waterSystems int) row format delimited fields terminated by ',' location '/user/(your net id)/water';
 
-At this point there should be three tables
+- At this point there should be three tables
 
 4. Combine Tables
 
@@ -54,58 +54,6 @@ create table taxtransport as select transport.*, tax.taxRespondents, tax.stateLo
 
 - Combine taxtransport and water tables to create final
 
-create table final as select taxtransport.*, water.populationserved, water.watersystems from taxtransport left outer join water on (taxtransport.state = water.state and taxtransport.county = water.county);
+create table combined as select taxtransport.*, water.populationserved, water.watersystems from taxtransport left outer join water on (taxtransport.state = water.state and taxtransport.county = water.county);
 
-5. Do analytics on combined
-
-create table final_analytic 
-as 
-select
-state,
-county,
-residents,
-pctmediumtofairbridges/pctpoorbridges as ratiofairtopoor,
-milesfreightrailroad/countyarea as freightpersqmile,
-roadsacceptable,
-populationserved/watersystems as watersyspercapita,
-realestatetax/countyarea as realestatetaxpersqmile
-from final;
-
-6. Export hive table to hdfs to local
-
-***NOTE***: The first line has to run in beeline. The rest is done locally in the combine directory
-
-INSERT OVERWRITE DIRECTORY '/user/jc8017/output_final' 
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
-LINES TERMINATED BY "\n" 
-SELECT * FROM final_analytic;
-
-hdfs dfs -copyToLocal output_final/000000_0 ./output
-mv ./output/000000_0 ./output/final_output
-
-
-
-# Misc
-
-- Table column names
-
-transport.hash transport.state transport.county transport.numberofbridges transport.numberofresidents transport.pctofmediumtofairconditionbridges transport.pctofpoorconditionbridges transport.primaryandcommercialairports transport.routemilesoffreightrailroad transport.routemilesofpassengerrailroadandrailtransit transport.roadsacceptable 
-
-tax.hash,tax.state tax.county,tax.numberofreturns,tax.adjustgrossincome,tax.totalincomeamount,tax.salariesandwagesamount,tax.stateandlocalincometaxamount,tax.realestatetaxes,tax.totaltaxespaid,tax.residentialenergytaxcreditamount
-
-water.hash, water.state, water.county, water.populationserved, water.watersystems, water.citiesserved, water.watersystemspercapita
-
-Okay columns
-
-1. 
-@Mert Alev
- 
-- Number of residents, Pct of medium to fair bridges, Pct of poor bridges, Route Miles Of Freight Data, Roads Acceptable, Land Area
-
-2. 
-@Anand Tyagi
-
-- Number Of Respondents, State and Local Income Tax, Real Estate Tax
-
-3. @Justin
-- Population Served, Water Systems
+5. Go to analytic(./analytic.md) to do analytics on the combined table
